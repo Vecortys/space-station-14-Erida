@@ -79,31 +79,6 @@
     sprite: _DeadSpace/Items/Toys/misc.rsi
     state: ips
 
-- type: entity
-  name: двухклинковый игрушечный меч
-  parent: ToySword
-  id: ToyEnergySwordDouble
-  description: Два игрушечных меча в одном. Мечта любого клоуна.
-  components:
-  - type: Construction
-    graph: ToyDoubleSword
-    node: icon
-  - type: Sprite
-    sprite: Objects/Weapons/Melee/e_sword_double.rsi
-    layers:
-      - state: e_sword_double
-      - state: e_sword_double_blade
-        color: "#FFFFFF"
-        visible: false
-        shader: unshaded
-        map: [ "blade" ]
-  - type: Item
-    size: Small
-    sprite: Objects/Weapons/Melee/e_sword_double-inhands.rsi
-  - type: Wieldable
-  - type: StaminaDamageOnHit
-    damage: 10
-
 #Plushie base (фигурка + плюшевая игрушка)
 - type: entity
   parent: BaseItem

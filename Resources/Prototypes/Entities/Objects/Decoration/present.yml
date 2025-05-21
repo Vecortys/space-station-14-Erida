@@ -74,8 +74,6 @@
         orGroup: GiftPool
       - id: FoamBlade
         orGroup: GiftPool
-      - id: WeaponLauncherChinaLakeToy
-        orGroup: GiftPool
 
 - type: entity
   id: PresentToys
@@ -154,14 +152,6 @@
       - id: PlushieLieutenant
         orGroup: GiftPool
       - id: PlushieIps
-        orGroup: GiftPool
-      - id: PlushieHacksLua
-        orGroup: GiftPool
-      - id: PlushieLilaMarrnes
-        orGroup: GiftPool
-      - id: PlushieDragonFoxMedTech
-        orGroup: GiftPool
-      - id: PlushieDragonFoxMadParadox
         orGroup: GiftPool
       - id: PlushieBoich
         orGroup: GiftPool
