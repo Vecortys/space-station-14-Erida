@@ -78,7 +78,7 @@
   - type: Sprite
     sprite: _DeadSpace/Items/Toys/misc.rsi
     state: ips
-    
+
 - type: entity
   name: двухклинковый игрушечный меч
   parent: ToySword
@@ -232,12 +232,12 @@
     voice: Volskaya
   - type: SpeakOnTrigger
     pack: PlushieOstwindSpeech
-  
+
 - type: entity
   parent: BasePlushieDeadSpaceMisc
   id: PlushieJeleshka
   name: плюшевый Инспектор Желешка
-  description: 
+  description:
   components:
   - type: Sprite
     state: jeleshka
@@ -369,7 +369,7 @@
 - type: entity
   parent: BasePlushieDeadSpaceMisc
   id: PlushieKermuth
-  name: плюшевый Кемлухт К’Хфнг 
+  name: плюшевый Кемлухт К’Хфнг
   description: ППлюшевая игрушка представителя расы Ниан. Его глаза словно смотрят вам в душу. Пахнет сигаретным дымом
   components:
   - type: Sprite
@@ -419,35 +419,3 @@
   - type: SpeakOnTrigger
     pack: PlushieLieutenantSpeech
 
-- type: entity
-  id: MagazineTommyCapGun
-  name: магазин для игрушечного томми гана
-  parent: BaseItem
-  components:
-  - type: Tag
-    tags:
-      - MagazineTommyCapGun
-  - type: BallisticAmmoProvider
-    mayTransfer: true
-    whitelist:
-      tags:
-        - CartridgeCap
-    proto: CartridgeCap
-    capacity: 20
-  - type: Item
-    size: Small
-  - type: ContainerContainer
-    containers:
-      ballistic-ammo: !type:Container
-  - type: Sprite
-    sprite: _DeadSpace/Items/Toys/TommyGun/magazine.rsi  
-    layers:
-    - state: base
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-1
-      map: ["enum.GunVisualLayers.Mag"]
-  - type: MagazineVisuals
-    magState: mag
-    steps: 2
-    zeroVisible: false
-  - type: Appearance
