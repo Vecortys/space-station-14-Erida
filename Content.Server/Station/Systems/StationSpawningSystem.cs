@@ -138,6 +138,11 @@ public sealed class StationSpawningSystem : SharedStationSpawningSystem
             if (profile.FlavorText != "" && _configurationManager.GetCVar(CCVars.FlavorText))
             {
                 AddComp<DetailExaminableComponent>(entity.Value).Content = profile.FlavorText;
+                var detailExamineComp = EntityManager.EnsureComponent<DetailExaminableComponent>(entity.Value);
+                detailExamineComp.Content = profile.FlavorText ?? "";
+
+                // Сохраняем ERPStatus независимо от наличия FlavorText
+                detailExamineComp.ERPStatus = profile.ERPStatus;
             }
         }
 

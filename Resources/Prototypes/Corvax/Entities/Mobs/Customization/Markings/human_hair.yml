@@ -2,6 +2,7 @@
   id: HumanHairAfricanPigtails
   bodyPart: Hair
   markingCategory: Hair
+  sponsorOnly: true
   sprites:
     - sprite: Corvax/Mobs/Customization/human_hair.rsi
       state: africanpigtails
@@ -114,7 +115,7 @@
   id: HumanHairCotton
   bodyPart: Hair
   markingCategory: Hair
-  sponsorOnly: true # Corvax-Sponsors
+ # sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/human_hair.rsi
       state: cotton
@@ -155,7 +156,7 @@
   id: HumanHairFingerwave
   bodyPart: Hair
   markingCategory: Hair
-  sponsorOnly: true # Corvax-Sponsors
+ # sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/human_hair.rsi
       state: fingerwave
@@ -359,7 +360,7 @@
   id: HumanHairLooseSlicked
   bodyPart: Hair
   markingCategory: Hair
-  sponsorOnly: true # Corvax-Sponsors
+ # sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/human_hair.rsi
       state: loose_slicked
@@ -514,7 +515,7 @@
   id: HumanHairSpicy
   bodyPart: Hair
   markingCategory: Hair
-  sponsorOnly: true # Corvax-Sponsors
+#  sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/human_hair.rsi
       state: spicy
@@ -555,7 +556,7 @@
   id: HumanHairWife
   bodyPart: Hair
   markingCategory: Hair
-  sponsorOnly: true # Corvax-Sponsors
+ # sponsorOnly: true # Corvax-Sponsors
   sprites:
     - sprite: Corvax/Mobs/Customization/human_hair.rsi
       state: wife

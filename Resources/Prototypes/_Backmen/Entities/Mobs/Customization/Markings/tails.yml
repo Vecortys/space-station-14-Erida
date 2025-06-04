@@ -2,7 +2,7 @@
   id: TailAxolotl
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Reptilian]
+  speciesRestriction: [Anthropomorph, Reptilian]
   sprites:
     - sprite: Backmen/Mobs/Customization/tails32x32.rsi
       state: axolotl
@@ -11,7 +11,7 @@
   id: TailDatashark
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Reptilian]
+  speciesRestriction: [Anthropomorph, Reptilian]
   sprites:
     - sprite: Backmen/Mobs/Customization/tails32x32.rsi
       state: datashark_ears_inner
@@ -28,7 +28,7 @@
   id: TailEasternDragon
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Reptilian]
+  speciesRestriction: [Anthropomorph, Reptilian]
   sprites:
     - sprite: Backmen/Mobs/Customization/tails32x32.rsi
       state: easternd_primary
@@ -39,7 +39,7 @@
   id: TailFennec
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Felinid]
+  speciesRestriction: [Anthropomorph, Felinid]
   sprites:
     - sprite: Backmen/Mobs/Customization/tails32x32.rsi
       state: fennec
@@ -48,7 +48,7 @@
   id: TailFish
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Reptilian]
+  speciesRestriction: [Anthropomorph, Reptilian]
   sprites:
     - sprite: Backmen/Mobs/Customization/tails32x32.rsi
       state: fish_primary
@@ -59,7 +59,7 @@
   id: TailFluffy
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Felinid]
+  speciesRestriction: [Anthropomorph, Felinid]
   sprites:
     - sprite: Backmen/Mobs/Customization/tails32x32.rsi
       state: fluffy
@@ -68,7 +68,7 @@
   id: TailFox
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Felinid]
+  speciesRestriction: [Anthropomorph, Felinid]
   sprites:
     - sprite: Backmen/Mobs/Customization/tails32x32.rsi
       state: fox_primary
@@ -79,7 +79,7 @@
   id: TailGecko
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Reptilian]
+  speciesRestriction: [Anthropomorph, Reptilian]
   sprites:
     - sprite: Backmen/Mobs/Customization/tails32x32.rsi
       state: gecko_primary
@@ -92,7 +92,7 @@
   id: TailKitsune
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Felinid]
+  speciesRestriction: [Anthropomorph, Felinid]
   sprites:
     - sprite: Backmen/Mobs/Customization/tails32x32.rsi
       state: kitsune_primary
@@ -103,7 +103,7 @@
   id: TailMaw
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Reptilian, SlimePerson]
+  speciesRestriction: [Anthropomorph, Reptilian, SlimePerson]
   sprites:
     - sprite: Backmen/Mobs/Customization/tails32x32.rsi
       state: maw
@@ -112,7 +112,7 @@
   id: TailShark
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Reptilian]
+  speciesRestriction: [Anthropomorph, Reptilian]
   sprites:
     - sprite: Backmen/Mobs/Customization/tails32x32.rsi
       state: shark_fin
@@ -123,7 +123,7 @@
   id: TailSnake
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Reptilian, SlimePerson]
+  speciesRestriction: [Anthropomorph, Reptilian, SlimePerson]
   sprites:
     - sprite: Backmen/Mobs/Customization/tails32x32.rsi
       state: snake
@@ -141,7 +141,7 @@
   id: TailSnakeStripe
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Reptilian, SlimePerson]
+  speciesRestriction: [Anthropomorph, Reptilian, SlimePerson]
   sprites:
     - sprite: Backmen/Mobs/Customization/tails32x32.rsi
       state: snake_stripe
@@ -163,7 +163,7 @@
   id: TailSnakeStripeAlt
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Reptilian, SlimePerson]
+  speciesRestriction: [Anthropomorph, Reptilian, SlimePerson]
   sprites:
     - sprite: Backmen/Mobs/Customization/tails32x32.rsi
       state: snake_stripe_alt
@@ -185,7 +185,7 @@
   id: TailSnakeDual
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Reptilian, SlimePerson]
+  speciesRestriction: [Anthropomorph, Reptilian, SlimePerson]
   sprites:
     - sprite: Backmen/Mobs/Customization/tails32x32.rsi
       state: snake_dual
@@ -207,7 +207,7 @@
   id: TailSnakeUnder
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Reptilian, SlimePerson]
+  speciesRestriction: [Anthropomorph, Reptilian, SlimePerson]
   sprites:
     - sprite: Backmen/Mobs/Customization/tails32x32.rsi
       state: snake_under
@@ -229,7 +229,7 @@
   id: TailSuccubus
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Moth, Felinid]
+  speciesRestriction: [Anthropomorph, Moth, Felinid]
   sprites:
     - sprite: Backmen/Mobs/Customization/tails32x32.rsi
       state: succubus
@@ -238,7 +238,7 @@
   id: TailTentacle
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [nHuman, Oni]
+  speciesRestriction: [Anthropomorph, nHuman, Oni]
   sprites:
     - sprite: Backmen/Mobs/Customization/tails32x32.rsi
       state: tentacle
@@ -247,7 +247,7 @@
   id: TailShadowkin
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Shadowkin]
+  speciesRestriction: [Anthropomorph, Shadowkin]
   sprites:
     - sprite: Backmen/Mobs/Customization/tails64x32.rsi
       state: shadowkin
@@ -256,7 +256,7 @@
   id: TailShadowkinBig
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Shadowkin]
+  speciesRestriction: [Anthropomorph, Shadowkin]
   sprites:
     - sprite: Backmen/Mobs/Customization/tails64x32.rsi
       state: shadowkin_big
@@ -265,7 +265,7 @@
   id: TailShadowkinBigFluff
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Shadowkin]
+  speciesRestriction: [Anthropomorph, Shadowkin]
   sprites:
     - sprite: Backmen/Mobs/Customization/tails64x32.rsi
       state: shadowkin_big_fluff
@@ -274,7 +274,7 @@
   id: TailShadowkinShorter
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Shadowkin]
+  speciesRestriction: [Anthropomorph, Shadowkin]
   sprites:
     - sprite: Backmen/Mobs/Customization/tails32x32.rsi
       state: shadowkin_shorter
@@ -283,7 +283,7 @@
   id: TailShadowkinMedium
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Shadowkin]
+  speciesRestriction: [Anthropomorph, Shadowkin]
   sprites:
     - sprite: Backmen/Mobs/Customization/tails32x32.rsi
       state: shadowkin_medium

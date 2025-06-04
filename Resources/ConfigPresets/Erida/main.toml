@@ -1,0 +1,160 @@
+﻿[game]
+hostname = "👽 МЁРТВЫЙ КОСМОС 🌆 Эрида [TTS][+18]"
+maxplayers = 60
+soft_max_players = 50
+desc="""📣 Проект, с приятным и размеренным геймплеем
+
+💕 - ERP, спокойный геймплей, нацеленный на общение и взаимопонимание!
+💕 - Личная разработка с полностью открытым исходным кодом )!
+💕 - Новые антагонисты: Вампиры, Блоб, Злой Близнец, Беглец, Культ Плоти!
+💕 - Новая роли
+💕 - Куча взаимодействий в плане ERP!
+💕 - Новые игровые режимы!
+💕 - Уникальные текстуры!
+💕️ - Новые расы!
+💕 - Система языков!
+💕 - Хирургия и кукла!
+🕖 мы делаем проект отталкиваясь от желаний и нужд игроков, присоединяйся к комьюнити и делай сервер под себя!
+
+
+"""
+map_pool="BackmenDefaultMapPool"
+defaultpreset="secret"
+lobbyenabled = true
+cryo_sleep_rejoining = true
+lobbyduration= 300
+contraband_examine = true
+
+# IPIntel stuff
+ipintel_enabled = true
+ipintel_contact_email = "backmen@bk.ru"
+
+[infolinks]
+website="https://backmen.ru"
+discord="https://discord.gg/S5x5wuCJ8z"
+wiki="http://wiki.backmen.ru"
+github="https://github.com/SS14Backmen/space-station-14-Erida"
+appeal="https://discord.gg/S5x5wuCJ8z"
+patreon="https://boosty.to/deadstation14"
+
+[shuttle]
+arrivals = true
+arrivals_map = "/Maps/Misc/kosmoport.yml"
+#arrivals_map = "/Maps/Backmen/Etc/terminal.yml"
+#arrivals_map = "/Maps/Misc/terminal.yml"
+arrivals_returns = true
+auto_call_time = 150
+auto_call_extension_time = 70
+emergency_dock_time = 280
+emergency_authorize_time = 30
+emergency_early_launch_allowed = true
+arrivals_planet = false
+
+[salvage]
+expedition_cooldown = 300
+
+[ic]
+restricted_names = true
+flavor_text = true
+
+[ooc]
+show_ooc_patron_color = false
+
+[looc]
+enabled_crit = true
+
+[biomass]
+easy_mode = false
+
+[atmos]
+space_wind = true
+space_wind_max_velocity = 22.0
+max_explosion_range = 5
+
+[physics]
+target_minimum_tickrate = 30
+timetosleep = 0.1
+angsleeptol = 0.01
+linsleeptol = 0.001
+
+[update]
+restart_delay = 120
+
+[worldgen]
+enabled = true
+
+[ahelp]
+admin_prefix = true
+admin_prefix_webhook = true
+
+[viewport]
+maximum_width = 26
+
+[rules]
+time = 30
+
+[afk]
+time = 9999999.0
+#time=1200.0
+
+[admin]
+announce_login = false
+announce_logout = false
+see_own_notes = true
+new_player_threshold = 600
+alert.min_players_sharing_connection = 2
+
+[adminlogs]
+server_name="main"
+
+[events]
+enabled=true
+
+[server]
+rules_file = EridaDefaultRuleset
+
+[net]
+max_connections = 1024
+log_late_msg=false
+# Automatic port forwarding!
+# Disabled by default because you may not want to do this.
+# upnp = true
+sendbuffersize=2471071
+#receivebuffersize=1471071
+lidgren_log_warning = false
+lidgren_log_error = false
+
+[netres]
+limit = 2.0
+
+[game.panic_bunker]
+disable_with_admins = false
+enable_without_admins = false
+show_reason = true
+#Minimum age of the account (from server's PoV, so from first-seen date) in minutes.
+min_account_age = 1440
+#Minimal overall played time.
+#min_overall_hours = 10
+
+[queue]
+enabled=true
+
+[laying]
+crawlundertables=true
+
+[vote]
+map_enabled = true
+restart_required_ratio = 0.6
+timermap = 60
+
+[hub]
+advertise = true
+tags = "lang:ru,rp:med,region:eu_e,tts,18+"
+
+[glimmer]
+GlimmerEnabled  = false
+
+[diseases]
+GameDiseaseEnabled = false
+
+EnableFootPrints = false
