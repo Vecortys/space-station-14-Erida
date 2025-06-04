@@ -24,7 +24,7 @@
   - VampiresGameRule
   - StandardStationEventScheduler # TODO: set back to Basic when Vampires will get reworked and become more dangerous
   - WageScheduler #backmen: currency
-  - PsiScheduler #backmen: psi
+  # - PsiScheduler #backmen: psi
   - SubGamemodesRule
   - BasicRoundstartVariation
   - MeteorSwarmScheduler
@@ -41,10 +41,10 @@
   - CalmStationEventScheduler
   - BlobGameMode
   - WageScheduler #backmen: currency
-  - PsiScheduler #backmen: psi
+  #- PsiScheduler #backmen: psi
   - BasicRoundstartVariation
   - SubGamemodesRule
-  - CalmMeteorSwarmScheduler
+ # - CalmMeteorSwarmScheduler
   - LavalandStormScheduler # Lavaland Change
 
 - type: gamePreset
@@ -57,10 +57,10 @@
   - XenoAgentGameMode
   - CalmStationEventScheduler
   - WageScheduler #backmen: currency
-  - PsiScheduler #backmen: psi
+  #- PsiScheduler #backmen: psi
   - BasicRoundstartVariation
   - SubGamemodesRule
-  - CalmMeteorSwarmScheduler
+ # - CalmMeteorSwarmScheduler
   - LavalandStormScheduler # Lavaland Change
 
 - type: gamePreset
@@ -75,10 +75,10 @@
   - FleshCult
   - CalmStationEventScheduler
   - WageScheduler #backmen: currency
-  - PsiScheduler #backmen: psi
+ # - PsiScheduler #backmen: psi
   - BasicRoundstartVariation
   - SubGamemodesRule
-  - CalmMeteorSwarmScheduler
+ # - CalmMeteorSwarmScheduler
   - LavalandStormScheduler # Lavaland Change
 
 - type: gamePreset
@@ -94,7 +94,7 @@
   - Traitor
   - BasicStationEventScheduler
   - WageScheduler #backmen: currency
-  - PsiScheduler #backmen: psi
+ # - PsiScheduler #backmen: psi
   - BasicRoundstartVariation
   - MeteorSwarmScheduler
   - LavalandStormScheduler # Lavaland Change
@@ -112,7 +112,7 @@
     - FleshCult
     - BasicStationEventScheduler
     - WageScheduler #backmen: currency
-    - PsiScheduler #backmen: psi
+   # - PsiScheduler #backmen: psi
     - BasicRoundstartVariation
     - MeteorSwarmScheduler
     - LavalandStormScheduler # Lavaland Change
@@ -132,7 +132,7 @@
     - BasicStationEventScheduler
     - Traitor
     - WageScheduler #backmen: currency
-    - PsiScheduler #backmen: psi
+   # - PsiScheduler #backmen: psi
     - BasicRoundstartVariation
     - MeteorSwarmScheduler
     - LavalandStormScheduler # Lavaland Change
@@ -152,7 +152,7 @@
     - BasicStationEventScheduler
     - Nukeops
     - WageScheduler #backmen: currency
-    - PsiScheduler #backmen: psi
+   # - PsiScheduler #backmen: psi
     - BasicRoundstartVariation
     - MeteorSwarmScheduler
     - LavalandStormScheduler # Lavaland Change
@@ -173,7 +173,7 @@
   - Zombie
   - BasicStationEventScheduler
   - WageScheduler #backmen: currency
-  - PsiScheduler #backmen: psi
+ # - PsiScheduler #backmen: psi
   - Traitor
   - BasicRoundstartVariation
   - MeteorSwarmScheduler
@@ -195,7 +195,7 @@
   - Zombie
   - BasicStationEventScheduler
   - WageScheduler #backmen: currency
-  - PsiScheduler #backmen: psi
+ # - PsiScheduler #backmen: psi
   - Nukeops
   - BasicRoundstartVariation
   - MeteorSwarmScheduler
@@ -215,7 +215,7 @@
     - FleshCult
     - BasicStationEventScheduler
     - WageScheduler #backmen: currency
-    - PsiScheduler #backmen: psi
+   # - PsiScheduler #backmen: psi
     - Traitor
     - BasicRoundstartVariation
     - MeteorSwarmScheduler
@@ -233,7 +233,7 @@
   rules:
     - RampingStationEventScheduler
     - WageScheduler #backmen: currency
-    - PsiScheduler #backmen: psi
+  #  - PsiScheduler #backmen: psi
     - Nukeops
     - BasicRoundstartVariation
     - MeteorSwarmScheduler
@@ -250,7 +250,7 @@
   showInVote: false
   rules:
   - WageScheduler #backmen: currency
-  - PsiScheduler #backmen: psi
+ # - PsiScheduler #backmen: psi
   - Changeling
   - SubGamemodesRule
   - StandardStationEventScheduler # backmen: gamerules rework
@@ -269,7 +269,7 @@
   rules:
   - StandardStationEventScheduler # backmen: gamerules rework
   - WageScheduler #backmen: currency
-  - PsiScheduler #backmen: psi
+ # - PsiScheduler #backmen: psi
   - Changeling
   - Traitor
   - SubGamemodesRule
@@ -290,7 +290,7 @@
   - ExtendedThief
   - StandardStationEventScheduler # backmen: gamerules rework
   - WageScheduler #backmen: currency
-  - PsiScheduler #backmen: psi
+ # - PsiScheduler #backmen: psi
   - BasicRoundstartVariation
   - MeteorSwarmScheduler
   - LavalandStormScheduler # Lavaland Change
@@ -309,7 +309,7 @@
   - ExtendedThief
   - Traitor
   - WageScheduler #backmen: currency
-  - PsiScheduler #backmen: psi
+#  - PsiScheduler #backmen: psi
   - BasicRoundstartVariation
   - MeteorSwarmScheduler
   - LavalandStormScheduler # Lavaland Change
@@ -327,7 +327,7 @@
   rules:
   - CalmStationEventScheduler # Calm because it's already scary.
   - WageScheduler #backmen: currency
-  - PsiScheduler #backmen: psi
+#  - PsiScheduler #backmen: psi
   - BasicRoundstartVariation
   # Oh my god.
   - KesslerSyndromeScheduler
@@ -349,8 +349,8 @@
   rules:
   - CalmStationEventScheduler
   - WageScheduler #backmen: currency
-  - PsiScheduler #backmen: psi
-  - CalmMeteorSwarmScheduler
+ # - PsiScheduler #backmen: psi
+#  - CalmMeteorSwarmScheduler
   - BasicRoundstartVariation
   - LavalandStormScheduler # Lavaland Change
 
@@ -364,8 +364,8 @@
   - BabelTower
   - CalmStationEventScheduler
   - WageScheduler
-  - PsiScheduler #backmen: psi
-  - CalmMeteorSwarmScheduler
+  # - PsiScheduler #backmen: psi
+ # - CalmMeteorSwarmScheduler
   - BasicRoundstartVariation
   - ExtendedThief # Uhh guess that's for more instability?
   - LavalandStormScheduler # Lavaland Change
@@ -378,7 +378,7 @@
   rules:
   - StandardStationEventScheduler
   - WageScheduler #backmen: currency
-  - PsiScheduler #backmen: psi
+ # - PsiScheduler #backmen: psi
   - MeteorSwarmScheduler
   - BasicRoundstartVariation
   - LavalandStormScheduler # Lavaland Change
@@ -393,7 +393,7 @@
   rules:
   - StandardStationEventScheduler
   - WageScheduler #backmen: currency
-  - PsiScheduler #backmen: psi
+ # - PsiScheduler #backmen: psi
   - MeteorSwarmScheduler
   - BasicRoundstartVariation
   - LavalandStormScheduler # Lavaland Change
@@ -408,7 +408,7 @@
   rules:
   - CalmStationEventScheduler
   - WageScheduler #backmen: currency
-  - PsiScheduler #backmen: psi
-  - CalmMeteorSwarmScheduler
+ # - PsiScheduler #backmen: psi
+ # - CalmMeteorSwarmScheduler
   - BasicRoundstartVariation
   - LavalandStormScheduler # Lavaland Change

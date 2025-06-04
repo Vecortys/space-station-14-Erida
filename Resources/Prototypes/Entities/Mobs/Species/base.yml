@@ -50,6 +50,7 @@
     - map: [ "pocket1" ]
     - map: [ "pocket2" ]
     - map: ["enum.HumanoidVisualLayers.Handcuffs"]
+
       color: "#ffffff"
       sprite: Objects/Misc/handcuffs.rsi
       state: body-overlay-2
@@ -216,7 +217,7 @@
   - type: MobPrice
     price: 1500 # Kidnapping a living person and selling them for cred is a good move.
     deathPenalty: 0.01 # However they really ought to be living and intact, otherwise they're worth 100x less.
-  - type: PotentialPsionic
+#  - type: PotentialPsionic
   - type: LayingDown # backmen: LayingDown
   - type: Tag
     tags:
@@ -250,7 +251,8 @@
     cap: 250
     threshold: 100
   - type: Absorbable # Changeling
-  - type: DiseaseCarrier # backmen
+  # - type: DiseaseCarrier # backmen
+  - type: OfferItem # Erida
   - type: Targeting # backmen: surgery
   - type: Barotrauma
     damage:

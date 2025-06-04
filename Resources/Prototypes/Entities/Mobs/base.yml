@@ -53,6 +53,9 @@
     - TauCetiBasic
     - SpaceMob
   - type: CanBeBorgNTEnemy
+  - type: OwnInteractionVerbs
+    allowedVerbs: [ ] # TODO: define something here, or don't.
+
 
 - type: entity
   save: false

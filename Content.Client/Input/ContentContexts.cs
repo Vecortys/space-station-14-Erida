@@ -89,6 +89,7 @@ namespace Content.Client.Input
             human.AddFunction(ContentKeyFunctions.ToggleStanding); // Backmen
             human.AddFunction(ContentKeyFunctions.LookUp); // BACKMEN EDIT
             human.AddFunction(CMKeyFunctions.CMUniqueAction); // BACKMEN EDIT
+            human.AddFunction(ContentKeyFunctions.OfferItem); // Erida
             human.AddFunction(ContentKeyFunctions.TargetHead);
             human.AddFunction(ContentKeyFunctions.TargetChest); // backmen: chest, groin separation
             human.AddFunction(ContentKeyFunctions.TargetGroin);
