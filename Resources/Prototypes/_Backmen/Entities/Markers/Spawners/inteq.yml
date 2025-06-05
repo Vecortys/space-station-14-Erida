@@ -251,7 +251,7 @@
       nameFormat: name-format-standard
     - type: AutoImplant
       implants:
-        - DeathRattleImplantInteQ 
+        - DeathRattleImplantInteQ
 
 - type: entity
   parent: SpawnPointInteQ
@@ -275,7 +275,7 @@
       nameFormat: name-format-standard
     - type: AutoImplant
       implants:
-        - DeathRattleImplantInteQ 
+        - DeathRattleImplantInteQ
 
 - type: entity
   parent: SpawnPointInteQ
