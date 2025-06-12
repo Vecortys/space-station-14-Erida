@@ -36,9 +36,9 @@
         - type: AntagImmune
   startingGear: BlueShieldGear
   icon: "JobIconBlueShield"
-  supervisors: job-supervisors-centcom
+  supervisors: job-supervisors-hoh
   accessGroups:
-    - AllAccessWithoutHeads
+    - AllAccessWithOutHeads
   access:
     - CCOfficer
     - CentralCommand
@@ -55,6 +55,7 @@
     id: BlueShieldPDA
     gloves: ClothingHandsGlovesCombat
     ears: ClothingHeadsetAltCommand
+    shoes: ClothingShoesBootsCombat
     belt: ClothingBeltBlueshieldWebbingFilled
   storage:
     back:

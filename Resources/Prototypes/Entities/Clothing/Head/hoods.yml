@@ -20,11 +20,6 @@
     tags:
     - WhitelistChameleon
   - type: HideLayerClothing
-    layers:
-      Hair: HEAD
-      Snout: HEAD
-      HeadTop: HEAD
-      HeadSide: HEAD    
     slots:
     - Hair
     - Snout
@@ -33,7 +28,6 @@
     - HeadSide
   - type: DiseaseProtection #Backmen & Ataraxia anti viral
     protection: 0.2
-    
 
 - type: entity
   parent: ClothingHeadHatHoodBioGeneral

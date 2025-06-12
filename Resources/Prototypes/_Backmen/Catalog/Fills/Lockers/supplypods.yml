@@ -34,9 +34,8 @@
   - type: StorageFill
     contents:
         - id: ClothingOuterHardsuitBlueShield
-        - id: ClothingMaskGasBlueShield
-        - id: DoubleEmergencyOxygenTankFilled
-        - id: DoubleEmergencyNitrogenTankFilled
+        - id: OxygenTankFilled
+        - id: NitrogenTankFilled
 
 #pilot
 

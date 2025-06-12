@@ -17,35 +17,18 @@
     - NyanoCompound
   - !type:CorridorDunGen
     width: 3
-    tile: FloorSteel
   - !type:DungeonEntranceDunGen
     count: 1
-    tile: FloorSteel
-    contents: BaseAirlock
   - !type:RoomEntranceDunGen
-    tile: FloorCaveDrought
-    contents: BaseWoodWall
   - !type:EntranceFlankDunGen
-    tile: FloorCaveDrought
-    contents: BaseWoodWall
   - !type:ExternalWindowDunGen
-    tile: FloorCaveDrought
-    contents: BaseWoodWall
   - !type:WallMountDunGen
-    contents: ScienceLabsWalls
-    tile: FloorDark
   - !type:BoundaryWallDunGen
-    wall: WallSolid
-    cornerWall: WallReinforced
-    tile: FloorSteel
   - !type:JunctionDunGen
     width: 1
-    tile: FloorSteel
-    contents: BaseAirlock
+  - !type:JunctionDunGen
   - !type:AutoCablingDunGen
-    entity: CableApcExtension
   - !type:CornerClutterDunGen
-    contents: MineshaftClutter
 
 # 3 blocks of 17x15 in a row of 17x47.
 #
@@ -66,32 +49,17 @@
     - NyanoStack
   - !type:CorridorDunGen
     width: 3
-    tile: FloorSteel
   - !type:DungeonEntranceDunGen
     count: 2
-    tile: FloorSteel
-    contents: BaseAirlock
   - !type:RoomEntranceDunGen
-    tile: FloorCaveDrought
-    contents: BaseWoodWall
   - !type:EntranceFlankDunGen
-    tile: FloorCaveDrought
-    contents: BaseWoodWall
   - !type:ExternalWindowDunGen
-    tile: FloorCaveDrought
-    contents: BaseWoodWall
   - !type:BoundaryWallDunGen
-    wall: WallSolid
-    cornerWall: WallReinforced
-    tile: FloorSteel
   - !type:JunctionDunGen
     width: 1
-    tile: FloorSteel
-    contents: BaseAirlock
+  - !type:JunctionDunGen
   - !type:AutoCablingDunGen
-    entity: CableApcExtension
   - !type:CornerClutterDunGen
-    contents: MineshaftClutter
 
 # A single block of 9x9
 #
@@ -109,15 +77,6 @@
     - NyanoSolo9
   - !type:DungeonEntranceDunGen
     count: 1
-    tile: FloorSteel
-    contents: BaseAirlock
   - !type:ExternalWindowDunGen
-    tile: FloorCaveDrought
-    contents: BaseWoodWall
   - !type:WallMountDunGen
-    contents: ScienceLabsWalls
-    tile: FloorDark
   - !type:BoundaryWallDunGen
-    wall: WallSolid
-    cornerWall: WallReinforced
-    tile: FloorSteel

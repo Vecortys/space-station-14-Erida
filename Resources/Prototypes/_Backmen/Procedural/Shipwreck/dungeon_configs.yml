@@ -25,28 +25,27 @@
 
 - type: dungeonConfig
   id: RuinedHospital
-#    whitelists:
-#      Rooms:
-#        tags:
-#        - RuinedHospital
+  data:
+    entities:
+      Cabling: CableApcExtension
+      CornerWalls: WallSolidRust
+      Walls: WallDrywall
+    spawnGroups:
+      CornerClutter: BaseClutter
+      Entrance: RuinedHospitalDoor
+      EntranceFlank: BaseWindow
+      Junction: BaseAirlock
+      Window: BaseWindow
+      WallMounts: RuinedHospitalWalls
+    tiles:
+      FallbackTile: Plating
+    whitelists:
+      Rooms:
+        tags:
+        - RuinedHospital
   layers:
   - !type:PrototypeDunGen
     proto: NyanoCompound
-  - !type:CornerClutterDunGen
-    contents: BaseClutter
-  - !type:EntranceFlankDunGen
-    contents: BaseWindow
-    tile: FloorDark
-  - !type:JunctionDunGen
-    width: 1
-    tile: Plating
-    contents: BaseAirlock
-  - !type:WallMountDunGen
-    contents: ScienceLabsWalls
-    tile: FloorSteel
-  - !type:AutoCablingDunGen
-    entity: CableApcExtension
-
 
   #- !type:MiddleConnectionPostGen
   #  count: 1
@@ -99,27 +98,26 @@
 
 - type: dungeonConfig
   id: RuinedDwellings
-#    whitelists:
-#      Rooms:
-#        tags:
-#        - RuinedDwelling
+  data:
+    entities:
+      Cabling: CableApcExtension
+      CornerWalls: WallSolidRust
+      Walls: WallDrywall
+    spawnGroups:
+      Window: BaseWindow
+      Entrance: RuinedDwellingsDoor
+      CornerClutter: BaseClutter
+      Junction: BaseAirlock
+      EntranceFlank: RuinedDwellingsEntranceFlank
+    tiles:
+      FallbackTile: FloorWood
+    whitelists:
+      Rooms:
+        tags:
+        - RuinedDwelling
   layers:
   - !type:PrototypeDunGen
     proto: NyanoStack
-  - !type:CornerClutterDunGen
-    contents: BaseClutter
-  - !type:EntranceFlankDunGen
-    contents: BaseWindow
-    tile: FloorDark
-  - !type:JunctionDunGen
-    width: 1
-    tile: FloorWood
-    contents: BaseAirlock
-  - !type:WallMountDunGen
-    contents: ScienceLabsWalls
-    tile: FloorSteel
-  - !type:AutoCablingDunGen
-    entity: CableApcExtension
 
 #  - !type:MiddleConnectionPostGen
 #    count: 1
@@ -156,27 +154,26 @@
 
 - type: dungeonConfig
   id: RuinedShop
-#    whitelists:
-#      Rooms:
-#        tags:
-#        - RuinedShop
+  data:
+    entities:
+      Cabling: CableApcExtension
+      CornerWalls: WallDrywall
+      Walls: WallDrywall
+    spawnGroups:
+      Window: BaseWindow
+      WallMounts: ScienceLabsWalls
+      CornerClutter: BaseClutter
+      EntranceFlank: BaseWindow
+      Entrance: ShopWoodDoor
+    tiles:
+      FallbackTile: Plating
+    whitelists:
+      Rooms:
+        tags:
+        - RuinedShop
   layers:
   - !type:PrototypeDunGen
     proto: NyanoSolo9
-  - !type:CornerClutterDunGen
-    contents: BaseClutter
-  - !type:EntranceFlankDunGen
-    contents: BaseWindow
-    tile: FloorDark
-  - !type:JunctionDunGen
-    width: 1
-    tile: Plating
-    contents: BaseAirlock
-  - !type:WallMountDunGen
-    contents: ScienceLabsWalls
-    tile: FloorSteel
-  - !type:AutoCablingDunGen
-    entity: CableApcExtension
 
 - type: entitySpawnEntry
   id: ShopWoodDoor

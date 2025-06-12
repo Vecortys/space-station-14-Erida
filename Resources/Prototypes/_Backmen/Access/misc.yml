@@ -1,5 +1,5 @@
 - type: accessGroup
-  id: AllAccessWithoutHeads
+  id: AllAccessWithOutHeads
   tags:
   - EmergencyShuttleRepealAll
   - Command
@@ -11,6 +11,7 @@
   - Lawyer
   - Engineering
   - Medical
+  - Quartermaster
   - Salvage
   - Cargo
   - Research
@@ -25,7 +26,3 @@
   - Chapel
   - Hydroponics
   - Atmospherics
-  - Virology
-  - GenpopEnter
-  - GenpopLeave
-  - SecurityTechnician

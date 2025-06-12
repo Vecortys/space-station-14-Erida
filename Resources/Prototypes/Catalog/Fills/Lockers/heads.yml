@@ -11,7 +11,6 @@
     - id: ShipyardComputerCircuitboard
     - id: CargoShuttleConsoleCircuitboard
     - id: SalvageMagnetMachineCircuitboard
-    - id: SalvageJobBoardComputerCircuitboard
     - id: CigPackGreen
       prob: 0.50
     - id: ClothingHeadsetAltCargo
@@ -192,8 +191,7 @@
     - id: AntiPsychicKnife # backmen
     - id: ClothingHeadCage # backmen
     - id: PrinterDocFlatpack # Corvax-Printer
-    - id: SupermatterFlatpack # backmen
-    - id: MetalFoamGrenade
+   # - id: SupermatterFlatpack # ERIDA
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
@@ -433,6 +431,7 @@
   - type: StorageFill
     contents:
     - id: WeaponRevolverDeckard
+    - id: ClothingOuterHardsuitBasic
     - id: JetpackBlue
     - id: SpaceCash1000
     - id: BeachBall

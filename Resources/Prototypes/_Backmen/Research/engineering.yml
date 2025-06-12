@@ -23,11 +23,9 @@
     state: high
   discipline: Engineering
   tier: 1
-  cost: 4500
+  cost: 2500
   recipeUnlocks:
   - PowerCellHigh
-  - TurboItemRechargerCircuitboard
-  - SMESAdvancedMachineCircuitboard
   position: 0,4
 
 - type: technology
@@ -38,11 +36,10 @@
     state: hyper
   discipline: Engineering
   tier: 1
-  cost: 11500
+  cost: 5500
   recipeUnlocks:
   - PowerCellSuper
   - PowerCellHyper
-#  - PowerCellMicroreactor # Backmen-REMOVE
   technologyPrerequisites:
   - PowercellsUpgraded
   - PowerGenerationMachines

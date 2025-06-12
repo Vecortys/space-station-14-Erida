@@ -124,9 +124,8 @@
   id: ClothingOuterHardsuitBase
   name: base hardsuit
   components:
-# SlotBlocker blocked until UI change
-#  - type: SlotBlock
-#    slots: [innerclothing, gloves, feet, undershirt, underpants, socks] # Backmen-Edit
+  - type: SlotBlock
+    slots: [innerclothing, gloves, feet, undershirt, underpants, socks] # Backmen-Edit
   - type: PressureProtection
     highPressureMultiplier: 0.3
     lowPressureMultiplier: 1000
@@ -207,9 +206,8 @@
   id: ClothingOuterEVASuitBase
   name: base EVA Suit
   components:
-# SlotBlocker blocked until UI change
-#  - type: SlotBlock
-#    slots: [innerclothing, gloves, feet, undershirt, underpants, socks] # Backmen-Edit
+  - type: SlotBlock
+    slots: [innerclothing, gloves, feet, undershirt, underpants, socks] # Backmen-Edit
   - type: PressureProtection
     highPressureMultiplier: 0.6
     lowPressureMultiplier: 1000
