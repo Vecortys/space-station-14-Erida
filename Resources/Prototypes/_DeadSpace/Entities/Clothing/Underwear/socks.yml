@@ -155,7 +155,7 @@
   description: Стандартные носки мима. Пахнут... пирогами?
   components:
   - type: Sprite
-    sprite: _DeadSpace/Clothing/Underwear/Civilian/mime/socks.rsi  
+    sprite: _DeadSpace/Clothing/Underwear/Civilian/mime/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
