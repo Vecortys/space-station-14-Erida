@@ -426,8 +426,8 @@
 - type: entity
   parent: ClothingUnderwearTopBase
   id: ClothingUnderwearTopBraLawyer
-  name: бра юриста
-  description: Стандартное нижнее бельё юриста.
+  name: бра адвоката
+  description: Стандартное нижнее бельё адвоката.
   components:
   - type: Sprite
     sprite: _DeadSpace/Clothing/Underwear/Law/lawyer/women/bra.rsi
