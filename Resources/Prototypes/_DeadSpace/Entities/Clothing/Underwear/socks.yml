@@ -164,7 +164,7 @@
   description: Стандартные носки музыканта.
   components:
   - type: Sprite
-    sprite: _DeadSpace/Clothing/Underwear/Civilian/mime/socks.rsi   
+    sprite: _DeadSpace/Clothing/Underwear/Civilian/mime/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -173,7 +173,7 @@
   description: Стандартные носки репортёра.
   components:
   - type: Sprite
-    sprite: _DeadSpace/Clothing/Underwear/Civilian/reporter/socks.rsi  
+    sprite: _DeadSpace/Clothing/Underwear/Civilian/reporter/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
@@ -182,7 +182,7 @@
   description: Стандартные носки зоотехника.
   components:
   - type: Sprite
-    sprite: _DeadSpace/Clothing/Underwear/Civilian/zoo/socks.rsi 
+    sprite: _DeadSpace/Clothing/Underwear/Civilian/zoo/socks.rsi
 
 - type: entity
   parent: ClothingUnderwearSocksBase
