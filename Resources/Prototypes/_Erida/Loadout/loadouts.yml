@@ -10,7 +10,7 @@
   id: ClothingUnderwearBottomBoxersBlueShieldOfficer
   equipment:
     underpants: ClothingUnderwearBottomBoxersBlueShieldOfficer
-  
+
 - type: loadout
   id: ClothingUnderwearBottomPantiesBlueShieldOfficer
   equipment:
@@ -65,7 +65,7 @@
   id: ClothingUnderwearSocksHeadofPersonnel
   equipment:
     socks: ClothingUnderwearSocksHeadofPersonnel
-  
+
 #CMO
 
 - type: loadout
@@ -138,7 +138,7 @@
   id: ClothingUnderwearTopBraQuartermaster
   equipment:
     undershirt: ClothingUnderwearTopBraQuartermaster
-  
+
 - type: loadout
   id: ClothingUnderwearBottomBoxersQuartermaster
   equipment:
@@ -160,12 +160,12 @@
   id: ClothingUnderwearTopBraHos
   equipment:
     undershirt: ClothingUnderwearTopBraHos
-  
+
 - type: loadout
   id: ClothingUnderwearBottomBoxersHoss
   equipment:
     underpants: ClothingUnderwearBottomBoxersHoS
-  
+
 - type: loadout
   id: ClothingUnderwearBottomPantiesHoS
   equipment:
@@ -202,7 +202,7 @@
   id: ClothingUnderwearSocksIAA
   equipment:
     socks: ClothingUnderwearSocksIAA
-  
+
 #Security
 #Warden
 
@@ -215,12 +215,12 @@
   id: ClothingUnderwearBottomBoxersWarden
   equipment:
     underpants: ClothingUnderwearBottomBoxersWarden
-  
+
 - type: loadout
   id: ClothingUnderwearBottomPantiesWarden
   equipment:
     underpants: ClothingUnderwearBottomPantiesWarden
-  
+
 - type: loadout
   id: ClothingUnderwearSocksWarden
   equipment:
@@ -237,7 +237,7 @@
   id: ClothingUnderwearTopBraDetective
   equipment:
     undershirt: ClothingUnderwearTopBraDetective
-  
+
 - type: loadout
   id: ClothingUnderwearBottomBoxersDetective
   equipment:
@@ -274,7 +274,7 @@
   id: ClothingUnderwearBottomPantiesBrigmedic
   equipment:
     underpants: ClothingUnderwearBottomPantiesBrigmedic
-  
+
 - type: loadout
   id: ClothingUnderwearSocksBrigmedic
   equipment:
@@ -383,7 +383,7 @@
   id: ClothingUnderwearSocksResearchAssistant
   equipment:
     socks: ClothingUnderwearSocksResearchAssistant
-  
+
 #Supply
 #CargoTech
 
@@ -446,7 +446,7 @@
   id: ClothingUnderwearBottomPantiesChemist
   equipment:
     underpants: ClothingUnderwearBottomPantiesChemist
-  
+
 - type: loadout
   id: ClothingUnderwearSocksChemist
   equipment:
@@ -539,7 +539,7 @@
   id: ClothingUnderwearSocksPsychologist
   equipment:
     socks: ClothingUnderwearSocksPsychologist
-  
+
 #enginering
 #atmos
 
