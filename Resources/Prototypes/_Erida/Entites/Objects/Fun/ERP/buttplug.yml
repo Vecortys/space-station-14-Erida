@@ -4,6 +4,7 @@
   parent: Clothing
   id: LPPClothingUnderwearBase
   name: based underwear
+  description: base toy
   components:
   - type: Sprite
     state: icon

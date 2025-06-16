@@ -24,11 +24,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraCaptain
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraCaptain
-  equipment:
-    undershirt: ClothingUnderwearTopBraCaptain
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-Captain
@@ -48,16 +43,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesCaptain
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersCaptain
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersCaptain
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesCaptain
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesCaptain
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-Captain
@@ -73,12 +58,6 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksCaptain
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksCaptain
-  equipment:
-    socks: ClothingUnderwearSocksCaptain
 #---------------------------------------
 
 - type: loadoutGroup
@@ -107,11 +86,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraHeadofPersonnel
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraHeadofPersonnel
-  equipment:
-    undershirt: ClothingUnderwearTopBraHeadofPersonnel
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-HeadofPersonnel
@@ -131,16 +105,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesHeadofPersonnel
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersHeadofPersonnel
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersHeadofPersonnel
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesHeadofPersonnel
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesHeadofPersonnel
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-HeadofPersonnel
@@ -156,12 +120,6 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksHeadofPersonnel
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksHeadofPersonnel
-  equipment:
-    socks: ClothingUnderwearSocksHeadofPersonnel
 #---------------------------------------
 
 - type: loadoutGroup
@@ -190,11 +148,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraWhite
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraWhite
-  equipment:
-    undershirt: ClothingUnderwearTopBraWhite
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-Passenger
@@ -213,16 +166,6 @@
   - ClothingUnderpanties
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesWhite
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersWhite
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersWhite
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesWhite
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesWhite
 #---------------------------------------
 
 - type: loadoutGroup
@@ -251,11 +194,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraBartender
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraBartender
-  equipment:
-    undershirt: ClothingUnderwearTopBraBartender
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-Bartender
@@ -275,16 +213,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesBartender
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersBartender
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersBartender
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesBartender
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesBartender
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-Bartender
@@ -300,12 +228,6 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksBartender
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksBartender
-  equipment:
-    socks: ClothingUnderwearSocksBartender
 #---------------------------------------
 
 - type: loadoutGroup
@@ -334,11 +256,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraService
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraService
-  equipment:
-    undershirt: ClothingUnderwearTopBraService
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-Service
@@ -358,16 +275,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesService
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersService
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersService
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesService
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesService
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-Service
@@ -383,12 +290,6 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksService
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksService
-  equipment:
-    socks: ClothingUnderwearSocksService
 #---------------------------------------
 
 - type: loadoutGroup
@@ -417,11 +318,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraChef
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraChef
-  equipment:
-    undershirt: ClothingUnderwearTopBraChef
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-Chef
@@ -441,16 +337,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesChef
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersChef
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersChef
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesChef
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesChef
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-Chef
@@ -466,12 +352,6 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksChef
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksChef
-  equipment:
-    socks: ClothingUnderwearSocksChef
 #---------------------------------------
 
 - type: loadoutGroup
@@ -500,11 +380,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraLibrarian
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraLibrarian
-  equipment:
-    undershirt: ClothingUnderwearTopBraLibrarian
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-Librarian
@@ -524,16 +399,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesLibrarian
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersLibrarian
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersLibrarian
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesLibrarian
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesLibrarian
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-Librarian
@@ -549,12 +414,6 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksLibrarian
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksLibrarian
-  equipment:
-    socks: ClothingUnderwearSocksLibrarian
 #---------------------------------------
 
 - type: loadoutGroup
@@ -583,11 +442,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraLawyer
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraLawyer
-  equipment:
-    undershirt: ClothingUnderwearTopBraLawyer
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-Lawyer
@@ -607,16 +461,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesLawyer
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersLawyer
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersLawyer
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesLawyer
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesLawyer
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-Lawyer
@@ -632,12 +476,6 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksLawyer
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksLawyer
-  equipment:
-    socks: ClothingUnderwearSocksLawyer
 #---------------------------------------
 
 - type: loadoutGroup
@@ -666,11 +504,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraChaplain
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraChaplain
-  equipment:
-    undershirt: ClothingUnderwearTopBraChaplain
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-Chaplain
@@ -690,16 +523,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesChaplain
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersChaplain
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersChaplain
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesChaplain
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesChaplain
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-Chaplain
@@ -715,12 +538,6 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksChaplain
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksChaplain
-  equipment:
-    socks: ClothingUnderwearSocksChaplain
 #---------------------------------------
 
 - type: loadoutGroup
@@ -749,11 +566,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraJanitor
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraJanitor
-  equipment:
-    undershirt: ClothingUnderwearTopBraJanitor
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-Janitor
@@ -773,16 +585,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesJanitor
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersJanitor
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersJanitor
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesJanitor
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesJanitor
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-Janitor
@@ -798,12 +600,6 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksJanitor
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksJanitor
-  equipment:
-    socks: ClothingUnderwearSocksJanitor
 #---------------------------------------
 
 - type: loadoutGroup
@@ -832,11 +628,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraBotanist
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraBotanist
-  equipment:
-    undershirt: ClothingUnderwearTopBraBotanist
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-Botanist
@@ -856,16 +647,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesBotanist
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersBotanist
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersBotanist
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesBotanist
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesBotanist
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-Botanist
@@ -881,12 +662,6 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksBotanist
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksBotanist
-  equipment:
-    socks: ClothingUnderwearSocksBotanist
 #---------------------------------------
 
 - type: loadoutGroup
@@ -915,11 +690,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraClown
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraClown
-  equipment:
-    undershirt: ClothingUnderwearTopBraClown
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-Clown
@@ -939,16 +709,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesClown
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersClown
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersClown
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesClown
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesClown
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-Clown
@@ -964,12 +724,6 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksClown
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksClown
-  equipment:
-    socks: ClothingUnderwearSocksClown
 #---------------------------------------
 
 - type: loadoutGroup
@@ -998,11 +752,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraMime
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraMime
-  equipment:
-    undershirt: ClothingUnderwearTopBraMime
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-Mime
@@ -1022,16 +771,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesMime
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersMime
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersMime
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesMime
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesMime
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-Mime
@@ -1047,12 +786,6 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksMime
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksMime
-  equipment:
-    socks: ClothingUnderwearSocksMime
 #---------------------------------------
 
 - type: loadoutGroup
@@ -1081,11 +814,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraMusician
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraMusician
-  equipment:
-    undershirt: ClothingUnderwearTopBraMusician
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-Musician
@@ -1105,16 +833,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesMusician
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersMusician
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersMusician
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesMusician
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesMusician
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-Musician
@@ -1130,12 +848,6 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksMusician
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksMusician
-  equipment:
-    socks: ClothingUnderwearSocksMusician
 #---------------------------------------
 
 - type: loadoutGroup
@@ -1164,11 +876,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraQuartermaster
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraQuartermaster
-  equipment:
-    undershirt: ClothingUnderwearTopBraQuartermaster
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-Quartermaster
@@ -1188,16 +895,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesQuartermaster
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersQuartermaster
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersQuartermaster
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesQuartermaster
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesQuartermaster
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-Quartermaster
@@ -1213,12 +910,6 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksQuartermaster
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksQuartermaster
-  equipment:
-    socks: ClothingUnderwearSocksQuartermaster
 #---------------------------------------
 
 - type: loadoutGroup
@@ -1247,11 +938,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraCargoTechnician
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraCargoTechnician
-  equipment:
-    undershirt: ClothingUnderwearTopBraCargoTechnician
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-CargoTechnician
@@ -1271,16 +957,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesCargoTechnician
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersCargoTechnician
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersCargoTechnician
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesCargoTechnician
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesCargoTechnician
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-CargoTechnician
@@ -1296,12 +972,6 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksCargoTech
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksCargoTech
-  equipment:
-    socks: ClothingUnderwearSocksCargoTech
 #---------------------------------------
 
 - type: loadoutGroup
@@ -1330,11 +1000,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraSalvageSpecialist
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraSalvageSpecialist
-  equipment:
-    undershirt: ClothingUnderwearTopBraSalvageSpecialist
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-SalvageSpecialist
@@ -1354,16 +1019,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesSalvageSpecialist
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersSalvageSpecialist
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersSalvageSpecialist
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesSalvageSpecialist
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesSalvageSpecialist
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-SalvageSpecialist
@@ -1379,12 +1034,6 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksSalvage
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksSalvage
-  equipment:
-    socks: ClothingUnderwearSocksSalvage
 #---------------------------------------
 
 - type: loadoutGroup
@@ -1413,11 +1062,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraChiefEngineer
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraChiefEngineer
-  equipment:
-    undershirt: ClothingUnderwearTopBraChiefEngineer
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-ChiefEngineer
@@ -1437,16 +1081,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesChiefEngineer
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersChiefEngineer
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersChiefEngineer
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesChiefEngineer
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesChiefEngineer
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-ChiefEngineer
@@ -1462,12 +1096,6 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksChiefEngineer
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksChiefEngineer
-  equipment:
-    socks: ClothingUnderwearSocksChiefEngineer
 #---------------------------------------
 
 - type: loadoutGroup
@@ -1496,11 +1124,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraTechnicalAssistant
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraTechnicalAssistant
-  equipment:
-    undershirt: ClothingUnderwearTopBraTechnicalAssistant
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-TechnicalAssistant
@@ -1520,16 +1143,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesTechnicalAssistant
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersTechnicalAssistant
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersTechnicalAssistant
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesTechnicalAssistant
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesTechnicalAssistant
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-TechnicalAssistant
@@ -1545,12 +1158,6 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksTechnicalAssistant
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksTechnicalAssistant
-  equipment:
-    socks: ClothingUnderwearSocksTechnicalAssistant
 #---------------------------------------
 
 - type: loadoutGroup
@@ -1579,11 +1186,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraEngineer
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraEngineer
-  equipment:
-    undershirt: ClothingUnderwearTopBraEngineer
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-Engineer
@@ -1603,16 +1205,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesEngineer
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersEngineer
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersEngineer
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesEngineer
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesEngineer
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-Engineer
@@ -1628,12 +1220,6 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksEngineer
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksEngineer
-  equipment:
-    socks: ClothingUnderwearSocksEngineer
 #---------------------------------------
 
 - type: loadoutGroup
@@ -1662,11 +1248,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraAtmosphericTechnician
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraAtmosphericTechnician
-  equipment:
-    undershirt: ClothingUnderwearTopBraAtmosphericTechnician
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-AtmosphericTechnician
@@ -1686,16 +1267,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesAtmosphericTechnician
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersAtmosphericTechnician
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersAtmosphericTechnician
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesAtmosphericTechnician
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesAtmosphericTechnician
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-AtmosphericTechnician
@@ -1711,12 +1282,6 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksAtmos
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksAtmos
-  equipment:
-    socks: ClothingUnderwearSocksAtmos
 #---------------------------------------
 
 - type: loadoutGroup
@@ -1745,11 +1310,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraResearchDirector
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraResearchDirector
-  equipment:
-    undershirt: ClothingUnderwearTopBraResearchDirector
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-ResearchDirector
@@ -1769,16 +1329,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesResearchDirector
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersResearchDirector
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersResearchDirector
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesResearchDirector
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesResearchDirector
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-ResearchDirector
@@ -1794,12 +1344,6 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksResearchDirector
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksResearchDirector
-  equipment:
-    socks: ClothingUnderwearSocksResearchDirector
 #---------------------------------------
 
 - type: loadoutGroup
@@ -1828,11 +1372,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraScientist
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraScientist
-  equipment:
-    undershirt: ClothingUnderwearTopBraScientist
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-Scientist
@@ -1852,16 +1391,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesScientist
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersScientist
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersScientist
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesScientist
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesScientist
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-Scientist
@@ -1877,12 +1406,6 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksScientist
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksScientist
-  equipment:
-    socks: ClothingUnderwearSocksScientist
 #---------------------------------------
 
 - type: loadoutGroup
@@ -1911,11 +1434,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraResearchAssistant
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraResearchAssistant
-  equipment:
-    undershirt: ClothingUnderwearTopBraResearchAssistant
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-ResearchAssistant
@@ -1935,16 +1453,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesResearchAssistant
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersResearchAssistant
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersResearchAssistant
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesResearchAssistant
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesResearchAssistant
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-ResearchAssistant
@@ -1960,12 +1468,6 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksResearchAssistant
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksResearchAssistant
-  equipment:
-    socks: ClothingUnderwearSocksResearchAssistant
 #---------------------------------------
 
 - type: loadoutGroup
@@ -1994,11 +1496,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraHos
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraHos
-  equipment:
-    undershirt: ClothingUnderwearTopBraHos
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-HeadOfSecurity
@@ -2011,22 +1508,12 @@
   - ClothingUnderbriefs
   - ClothingUnderboxers_heart
   - ClothingUnderljonb
-  - ClothingUnderwearBottomBoxersHoS
+  - ClothingUnderwearBottomBoxersHoss
 #жен
   - ClothingUnderjockstrap
   - ClothingUnderpanties
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesHoS
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersHos
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersHoS
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesHoS
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesHoS
 #---------------------------------------
 
 - type: loadoutGroup
@@ -2043,12 +1530,7 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksHoS
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksHoS
-  equipment:
-    socks: ClothingUnderwearSocksHoS
+  - ClothingUnderwearWomenSocksHoS
 #---------------------------------------
 
 - type: loadoutGroup
@@ -2077,11 +1559,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraWarden
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraWarden
-  equipment:
-    undershirt: ClothingUnderwearTopBraWarden
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-Warden
@@ -2101,16 +1578,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesWarden
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersWarden
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersWarden
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesWarden
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesWarden
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-Warden
@@ -2126,12 +1593,7 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksWarden
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksWarden
-  equipment:
-    socks: ClothingUnderwearSocksWarden
+  - ClothingUnderwearWomenSocksWarden
 #---------------------------------------
 
 - type: loadoutGroup
@@ -2160,11 +1622,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraSecurityOfficer
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraSecurityOfficer
-  equipment:
-    undershirt: ClothingUnderwearTopBraSecurityOfficer
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-SecurityOfficer
@@ -2184,16 +1641,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesSecurityOfficer
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersSecurityOfficer
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersSecurityOfficer
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesSecurityOfficer
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesSecurityOfficer
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-SecurityOfficer
@@ -2209,12 +1656,7 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksSecurityOfficer
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksSecurityOfficer
-  equipment:
-    socks: ClothingUnderwearSocksSecurityOfficer
+  - ClothingUnderwearWomenSocksSecurityOfficer
 #---------------------------------------
 
 - type: loadoutGroup
@@ -2243,11 +1685,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraDetective
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraDetective
-  equipment:
-    undershirt: ClothingUnderwearTopBraDetective
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-Detective
@@ -2267,16 +1704,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesDetective
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersDetective
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersDetective
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesDetective
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesDetective
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-Detective
@@ -2292,12 +1719,7 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksDetective
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksDetective
-  equipment:
-    socks: ClothingUnderwearSocksDetective
+  - ClothingUnderwearWomenSocksDetective
 #---------------------------------------
 
 - type: loadoutGroup
@@ -2326,11 +1748,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraCadet
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraCadet
-  equipment:
-    undershirt: ClothingUnderwearTopBraCadet
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-Cadet
@@ -2350,16 +1767,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesCadet
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersCadet
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersCadet
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesCadet
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesCadet
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-Cadet
@@ -2375,12 +1782,7 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksCadet
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksCadet
-  equipment:
-    socks: ClothingUnderwearSocksCadet
+  - ClothingUnderwearWomenSocksCadet
 #---------------------------------------
 
 - type: loadoutGroup
@@ -2409,11 +1811,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraCMO
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraCMO
-  equipment:
-    undershirt: ClothingUnderwearTopBraCMO
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-CMO
@@ -2433,16 +1830,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesCMO
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersCMO
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersCMO
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesCMO
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesCMO
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-CMO
@@ -2458,12 +1845,6 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksCMO
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksCMO
-  equipment:
-    socks: ClothingUnderwearSocksCMO
 #---------------------------------------
 
 - type: loadoutGroup
@@ -2492,11 +1873,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraDoctor
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraDoctor
-  equipment:
-    undershirt: ClothingUnderwearTopBraDoctor
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-Doctor
@@ -2516,16 +1892,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesDoctor
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersDoctor
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersDoctor
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesDoctor
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesDoctor
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-Doctor
@@ -2541,12 +1907,6 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksDoctor
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksDoctor
-  equipment:
-    socks: ClothingUnderwearSocksDoctor
 #---------------------------------------
 
 - type: loadoutGroup
@@ -2575,11 +1935,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraIntern
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraIntern
-  equipment:
-    undershirt: ClothingUnderwearTopBraIntern
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-Intern
@@ -2599,16 +1954,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesIntern
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersIntern
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersIntern
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesIntern
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesIntern
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-Intern
@@ -2624,12 +1969,6 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksIntern
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksIntern
-  equipment:
-    socks: ClothingUnderwearSocksIntern
 #---------------------------------------
 
 - type: loadoutGroup
@@ -2658,11 +1997,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraChemist
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraChemist
-  equipment:
-    undershirt: ClothingUnderwearTopBraChemist
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-Chemist
@@ -2682,16 +2016,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesChemist
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersChemist
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersChemist
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesChemist
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesChemist
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-Chemist
@@ -2707,12 +2031,6 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksChemist
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksChemist
-  equipment:
-    socks: ClothingUnderwearSocksChemist
 #---------------------------------------
 
 - type: loadoutGroup
@@ -2741,11 +2059,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraParamedic
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraParamedic
-  equipment:
-    undershirt: ClothingUnderwearTopBraParamedic
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-Paramedic
@@ -2765,16 +2078,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesParamedic
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersParamedic
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersParamedic
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesParamedic
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesParamedic
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-Paramedic
@@ -2790,12 +2093,6 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksParamedic
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksParamedic
-  equipment:
-    socks: ClothingUnderwearSocksParamedic
 #---------------------------------------
 
 - type: loadoutGroup
@@ -2824,11 +2121,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraZoo
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraZoo
-  equipment:
-    undershirt: ClothingUnderwearTopBraZoo
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-Zoo
@@ -2848,16 +2140,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesZoo
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersZoo
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersZoo
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesZoo
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesZoo
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-Zoo
@@ -2873,12 +2155,6 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksZoo
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksZoo
-  equipment:
-    socks: ClothingUnderwearSocksZoo
 #---------------------------------------
 
 - type: loadoutGroup
@@ -2907,11 +2183,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraReporter
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraReporter
-  equipment:
-    undershirt: ClothingUnderwearTopBraReporter
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-Reporter
@@ -2931,16 +2202,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesReporter
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersReporter
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersReporter
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesReporter
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesReporter
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-Reporter
@@ -2956,12 +2217,6 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksReporter
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksReporter
-  equipment:
-    socks: ClothingUnderwearSocksReporter
 #---------------------------------------
 
 - type: loadoutGroup
@@ -2990,11 +2245,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraPsychologist
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraPsychologist
-  equipment:
-    undershirt: ClothingUnderwearTopBraPsychologist
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-Psychologist
@@ -3014,16 +2264,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesPsychologist
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersPsychologist
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersPsychologist
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesPsychologist
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesPsychologist
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-Psychologist
@@ -3039,12 +2279,6 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksPsychologist
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksPsychologist
-  equipment:
-    socks: ClothingUnderwearSocksPsychologist
 #---------------------------------------
 
 - type: loadoutGroup
@@ -3073,11 +2307,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraBoxer
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraBoxer
-  equipment:
-    undershirt: ClothingUnderwearTopBraBoxer
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-Boxer
@@ -3097,16 +2326,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesBoxer
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersBoxer
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersBoxer
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesBoxer
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesBoxer
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-Boxer
@@ -3122,12 +2341,6 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksBoxer
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksBoxer
-  equipment:
-    socks: ClothingUnderwearSocksBoxer
 #---------------------------------------
 
 - type: loadoutGroup
@@ -3156,11 +2369,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraBrigmedic
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraBrigmedic
-  equipment:
-    undershirt: ClothingUnderwearTopBraBrigmedic
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-Brigmedic
@@ -3180,16 +2388,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesBrigmedic
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersBrigmedic
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersBrigmedic
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesBrigmedic
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesBrigmedic
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-Brigmedic
@@ -3205,12 +2403,7 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksBrigmedic
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksBrigmedic
-  equipment:
-    socks: ClothingUnderwearSocksBrigmedic
+  - ClothingUnderwearWomenSocksBrigmedic
 #---------------------------------------
 
 - type: loadoutGroup
@@ -3239,11 +2432,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraBlueShieldOfficer
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraBlueShieldOfficer
-  equipment:
-    undershirt: ClothingUnderwearTopBraBlueShieldOfficer
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-BlueShieldOfficer
@@ -3263,16 +2451,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesBlueShieldOfficer
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersBlueShieldOfficer
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersBlueShieldOfficer
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesBlueShieldOfficer
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesBlueShieldOfficer
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-BlueShieldOfficer
@@ -3288,12 +2466,6 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksBlueShieldOfficer
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksBlueShieldOfficer
-  equipment:
-    socks: ClothingUnderwearSocksBlueShieldOfficer
 #---------------------------------------
 
 - type: loadoutGroup
@@ -3322,11 +2494,6 @@
   - ClothingUndertubetop
   - ClothingUnderwearTopBraIAA
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearTopBraIAA
-  equipment:
-    undershirt: ClothingUnderwearTopBraIAA
-#---------------------------------------
 
 - type: loadoutGroup
   id: Niz-IAA
@@ -3346,16 +2513,6 @@
   - ClothingUnderpantyhose
   - ClothingUnderwearBottomPantiesIAA
 #---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomBoxersIAA
-  equipment:
-    underpants: ClothingUnderwearBottomBoxersIAA
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearBottomPantiesIAA
-  equipment:
-    underpants: ClothingUnderwearBottomPantiesIAA
-#---------------------------------------
 
 - type: loadoutGroup
   id: Socks-IAA
@@ -3371,10 +2528,3 @@
   - ClothingUnderThin_thigh
   - ClothingUnderGarter
   - ClothingUnderwearSocksIAA
-
-#---------------------------------------
-- type: loadout
-  id: ClothingUnderwearSocksIAA
-  equipment:
-    socks: ClothingUnderwearSocksIAA
-#---------------------------------------
