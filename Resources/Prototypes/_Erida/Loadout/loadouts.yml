@@ -215,7 +215,7 @@
   id: ClothingUnderwearBottomBoxersWarden
   equipment:
     underpants: ClothingUnderwearBottomBoxersWarden
-  
+
 - type: loadout
   id: ClothingUnderwearBottomPantiesWarden
   equipment:
@@ -446,7 +446,7 @@
   id: ClothingUnderwearBottomPantiesChemist
   equipment:
     underpants: ClothingUnderwearBottomPantiesChemist
-  
+
 - type: loadout
   id: ClothingUnderwearSocksChemist
   equipment:
