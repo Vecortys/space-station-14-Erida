@@ -22,7 +22,6 @@
 
 #command
 #captain
-
 - type: loadout
   id: ClothingUnderwearTopBraCaptain
   equipment:
@@ -44,7 +43,6 @@
     socks: ClothingUnderwearSocksCaptain
 
 #HoP
-
 - type: loadout
   id: ClothingUnderwearTopBraHeadofPersonnel
   equipment:
@@ -66,7 +64,6 @@
     socks: ClothingUnderwearSocksHeadofPersonnel
 
 #CMO
-
 - type: loadout
   id: ClothingUnderwearTopBraCMO
   equipment:
@@ -88,7 +85,6 @@
     socks: ClothingUnderwearSocksCMO
 
 #CE
-
 - type: loadout
   id: ClothingUnderwearTopBraChiefEngineer
   equipment:
@@ -110,7 +106,6 @@
     socks: ClothingUnderwearSocksChiefEngineer
 
 #RD
-
 - type: loadout
   id: ClothingUnderwearTopBraResearchDirector
   equipment:
@@ -132,7 +127,6 @@
     socks: ClothingUnderwearSocksResearchDirector
 
 #QM
-
 - type: loadout
   id: ClothingUnderwearTopBraQuartermaster
   equipment:
@@ -154,7 +148,6 @@
     socks: ClothingUnderwearSocksQuartermaster
 
 #HoS
-
 - type: loadout
   id: ClothingUnderwearTopBraHos
   equipment:
@@ -181,7 +174,6 @@
     socks: ClothingUnderwearWomenSocksHoS
 
 #IAA
-
 - type: loadout
   id: ClothingUnderwearTopBraIAA
   equipment:
@@ -204,7 +196,6 @@
 
 #Security
 #Warden
-
 - type: loadout
   id: ClothingUnderwearTopBraWarden
   equipment:
@@ -231,7 +222,6 @@
     socks: ClothingUnderwearWomenSocksWarden
 
 #detective
-
 - type: loadout
   id: ClothingUnderwearTopBraDetective
   equipment:
@@ -258,7 +248,6 @@
     socks: ClothingUnderwearWomenSocksDetective
 
 #brigmedic
-
 - type: loadout
   id: ClothingUnderwearTopBraBrigmedic
   equipment:
@@ -285,7 +274,6 @@
     socks: ClothingUnderwearWomenSocksBrigmedic
 
 #SecOfficer
-
 - type: loadout
   id: ClothingUnderwearTopBraSecurityOfficer
   equipment:
@@ -312,7 +300,6 @@
     socks: ClothingUnderwearWomenSocksSecurityOfficer
 
 #SecCadet
-
 - type: loadout
   id: ClothingUnderwearTopBraCadet
   equipment:
@@ -340,7 +327,6 @@
 
 #Science
 #Scientlist
-
 - type: loadout
   id: ClothingUnderwearTopBraScientist
   equipment:
@@ -362,12 +348,11 @@
     socks: ClothingUnderwearSocksScientist
 
 #Research Assistant
-
 - type: loadout
   id: ClothingUnderwearTopBraResearchAssistant
   equipment:
     undershirt: ClothingUnderwearTopBraResearchAssistant
-  
+
 - type: loadout
   id: ClothingUnderwearBottomBoxersResearchAssistant
   equipment:
@@ -385,7 +370,6 @@
 
 #Supply
 #CargoTech
-
 - type: loadout
   id: ClothingUnderwearTopBraCargoTechnician
   equipment:
@@ -407,7 +391,6 @@
     socks: ClothingUnderwearSocksCargoTech
 
 #SalvageSpec
-
 - type: loadout
   id: ClothingUnderwearTopBraSalvageSpecialist
   equipment:
@@ -430,7 +413,6 @@
 
 #Med
 #Chemist
-
 - type: loadout
   id: ClothingUnderwearTopBraChemist
   equipment:
@@ -452,7 +434,6 @@
     socks: ClothingUnderwearSocksChemist
 
 #Paramedic
-
 - type: loadout
   id: ClothingUnderwearTopBraParamedic
   equipment:
@@ -474,7 +455,6 @@
     socks: ClothingUnderwearSocksParamedic
 
 #medic
-
 - type: loadout
   id: ClothingUnderwearTopBraDoctor
   equipment:
@@ -496,7 +476,6 @@
     socks: ClothingUnderwearSocksDoctor
 
 #intern
-
 - type: loadout
   id: ClothingUnderwearTopBraIntern
   equipment:
@@ -518,7 +497,6 @@
     socks: ClothingUnderwearSocksIntern
 
 #psychologist
-
 - type: loadout
   id: ClothingUnderwearTopBraPsychologist
   equipment:
@@ -541,7 +519,6 @@
 
 #enginering
 #atmos
-
 - type: loadout
   id: ClothingUnderwearTopBraAtmosphericTechnician
   equipment:
@@ -563,7 +540,6 @@
     socks: ClothingUnderwearSocksAtmos
 
 #engineer
-
 - type: loadout
   id: ClothingUnderwearTopBraEngineer
   equipment:
@@ -585,7 +561,6 @@
     socks: ClothingUnderwearSocksEngineer
 
 #tech assistaint
-
 - type: loadout
   id: ClothingUnderwearTopBraTechnicalAssistant
   equipment:
@@ -608,7 +583,6 @@
 
 #Service
 #bartender
-
 - type: loadout
   id: ClothingUnderwearTopBraBartender
   equipment:
@@ -630,7 +604,6 @@
     socks: ClothingUnderwearSocksBartender
 
 #service
-
 - type: loadout
   id: ClothingUnderwearTopBraService
   equipment:
@@ -652,7 +625,6 @@
     socks: ClothingUnderwearSocksService
 
 #chef
-
 - type: loadout
   id: ClothingUnderwearTopBraChef
   equipment:
@@ -662,7 +634,7 @@
   id: ClothingUnderwearBottomBoxersChef
   equipment:
     underpants: ClothingUnderwearBottomBoxersChef
-#---------------------------------------
+
 - type: loadout
   id: ClothingUnderwearBottomPantiesChef
   equipment:
@@ -674,7 +646,6 @@
     socks: ClothingUnderwearSocksChef
 
 #Librarian
-
 - type: loadout
   id: ClothingUnderwearTopBraLibrarian
   equipment:
@@ -696,7 +667,6 @@
     socks: ClothingUnderwearSocksLibrarian
 
 #Botanist
-
 - type: loadout
   id: ClothingUnderwearTopBraBotanist
   equipment:
@@ -718,7 +688,6 @@
     socks: ClothingUnderwearSocksBotanist
 
 #Clown
-
 - type: loadout
   id: ClothingUnderwearTopBraClown
   equipment:
@@ -740,7 +709,6 @@
     socks: ClothingUnderwearSocksClown
 
 #Mime
-
 - type: loadout
   id: ClothingUnderwearTopBraMime
   equipment:
@@ -762,7 +730,6 @@
     socks: ClothingUnderwearSocksMime
 
 #Musician
-
 - type: loadout
   id: ClothingUnderwearTopBraMusician
   equipment:
@@ -784,7 +751,6 @@
     socks: ClothingUnderwearSocksMusician
 
 #boxer
-
 - type: loadout
   id: ClothingUnderwearTopBraBoxer
   equipment:
@@ -806,7 +772,6 @@
     socks: ClothingUnderwearSocksBoxer
 
 #chaplain
-
 - type: loadout
   id: ClothingUnderwearTopBraChaplain
   equipment:
@@ -828,7 +793,6 @@
     socks: ClothingUnderwearSocksChaplain
 
 #janitor
-
 - type: loadout
   id: ClothingUnderwearTopBraJanitor
   equipment:
@@ -850,7 +814,6 @@
     socks: ClothingUnderwearSocksJanitor
 
 #reporter
-
 - type: loadout
   id: ClothingUnderwearTopBraReporter
   equipment:
@@ -872,7 +835,6 @@
     socks: ClothingUnderwearSocksReporter
 
 #zoo
-
 - type: loadout
   id: ClothingUnderwearTopBraZoo
   equipment:
@@ -894,7 +856,6 @@
     socks: ClothingUnderwearSocksZoo
 
 #passenger
-
 - type: loadout
   id: ClothingUnderwearTopBraWhite
   equipment:
@@ -911,7 +872,6 @@
     underpants: ClothingUnderwearBottomPantiesWhite
 
 #lawyer
-
 - type: loadout
   id: ClothingUnderwearTopBraLawyer
   equipment:
