@@ -1,6 +1,5 @@
 #centcom
 #blueshield
-
 - type: loadout
   id: ClothingUnderwearTopBraBlueShieldOfficer
   equipment:
@@ -15,7 +14,7 @@
   id: ClothingUnderwearBottomPantiesBlueShieldOfficer
   equipment:
     underpants: ClothingUnderwearBottomPantiesBlueShieldOfficer
-  
+
 - type: loadout
   id: ClothingUnderwearSocksBlueShieldOfficer
   equipment:

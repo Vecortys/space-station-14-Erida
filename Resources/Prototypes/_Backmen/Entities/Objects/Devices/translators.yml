@@ -58,7 +58,6 @@
   name: foreigner's translator
   description: A special-issue translator that helps foreigner's speak and understand this station's primary language.
 
-
 - type: entity
   id: CanilunztTranslator
   parent: [ TranslatorPoweredBase ]
@@ -287,7 +286,7 @@
     requires:
     - TauCetiBasic
     - Elvish
-  
+
   #erida's add
 - type: entity
   id: CarshnilTranslator
