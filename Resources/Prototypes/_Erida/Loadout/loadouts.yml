@@ -116,7 +116,7 @@
   id: ClothingUnderwearTopBraResearchDirector
   equipment:
     undershirt: ClothingUnderwearTopBraResearchDirector
-  
+
 - type: loadout
   id: ClothingUnderwearBottomBoxersResearchDirector
   equipment:

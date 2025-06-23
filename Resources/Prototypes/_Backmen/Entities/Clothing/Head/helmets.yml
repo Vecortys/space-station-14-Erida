@@ -64,25 +64,6 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadGermanHelmet
-  name: Старый немецкий шлем
-  description: Довольно старый шлем, который потрепало временем.
-  components:
-  - type: Sprite
-    sprite: Backmen/Clothing/Head/Helmets/germanhelmetbelov.rsi
-  - type: Clothing
-    sprite: Backmen/Clothing/Head/Helmets/germanhelmetbelov.rsi
-  - type: IngestionBlocker
-  - type: Armor
-    coverage:
-    - Head
-    modifiers:
-      coefficients:
-        Blunt: 0.50
-        Heat: 0.40
-
-- type: entity
-  parent: ClothingHeadBase
   id: ClothingHeadHelmetSSSP
   name: Легкий советский шлем
   description: Легкий шлем советских войск

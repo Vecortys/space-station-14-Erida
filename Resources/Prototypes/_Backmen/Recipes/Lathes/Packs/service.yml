@@ -35,6 +35,10 @@
   - ShadokinStandardTranslatorImplanter
   - ValyrianStandardTranslatorImplanter
   # end-backmen: languages
+  - CarshnilTranslatorImplanter
+  - Eve-pishtuTranslatorImplanter
+  - Eve-pishtuTranslator
+  - CarshnilTranslator
 
 - type: latheRecipePack
   id: BackmenToys
