@@ -187,7 +187,6 @@
     requires:
     - TauCetiBasic
 
-#erida's add
 - type: entity
   parent: BaseSubdermalImplant
   id: CarshnilStandardTranslatorImplant

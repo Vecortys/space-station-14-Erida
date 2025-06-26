@@ -108,7 +108,6 @@
   - type: Implanter
     implant: ElvishStandardTranslatorImplant
 
-#erida's add
 - type: entity
   id: CarshnilTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]

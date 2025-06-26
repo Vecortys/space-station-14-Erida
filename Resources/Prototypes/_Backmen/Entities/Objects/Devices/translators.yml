@@ -287,7 +287,6 @@
     - TauCetiBasic
     - Elvish
 
-  #erida's add
 - type: entity
   id: CarshnilTranslator
   parent: [ TranslatorPoweredBase ]

@@ -21,7 +21,7 @@
         heart: OrganAnimalHeart
         lungs: OrganAnimalLungs
     groin: # Backmen edit: chest, groin separation
-      part: GroinDemon
+      part: GroinShark
       connections:
       - right leg
       - left leg

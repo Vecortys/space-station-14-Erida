@@ -34,11 +34,11 @@
   - DwarvenStandardTranslatorImplanter
   - ShadokinStandardTranslatorImplanter
   - ValyrianStandardTranslatorImplanter
-  # end-backmen: languages
   - CarshnilTranslatorImplanter
   - Eve-pishtuTranslatorImplanter
   - Eve-pishtuTranslator
   - CarshnilTranslator
+  # end-backmen: languages
 
 - type: latheRecipePack
   id: BackmenToys
