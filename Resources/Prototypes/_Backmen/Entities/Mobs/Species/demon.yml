@@ -44,7 +44,7 @@
       Unsexed: FemaleHuman
   - type: Damageable
     damageContainer: Biological
-    damageModifierSet: Scale
+    damageModifierSet: RaceDemon
   - type: MeleeWeapon
     hidden: true
     soundHit:

@@ -277,7 +277,6 @@
     Gold: 50
     Silver: 50
 
-#erida's add
 - type: latheRecipe
   id: CarshnilTranslatorImplanter
   result: CarshnilTranslatorImplanter
