@@ -22,28 +22,6 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: GermanSuit
-  name: Форма Немецкого Солдата
-  description: Военная форма немецких войск
-  components:
-  - type: Sprite
-    sprite: Backmen/Clothing/Uniforms/jumpsuit/germansoldierbel.rsi
-  - type: Clothing
-    sprite: Backmen/Clothing/Uniforms/jumpsuit/germansoldierbel.rsi
-
-- type: entity
-  parent: ClothingUniformBase
-  id: GermanOfficerSuit
-  name: Форма немецкого офицера
-  description: Форма которую носят немецкие офицеры
-  components:
-  - type: Sprite
-    sprite: Backmen/Clothing/Uniforms/jumpsuit/officergermanbel.rsi
-  - type: Clothing
-    sprite: Backmen/Clothing/Uniforms/jumpsuit/officergermanbel.rsi
-
-- type: entity
-  parent: ClothingUniformBase
   id: SovietSoldierUniformSuit
   name: Униформа солдата СССП
   description: Опрятная форма бойца фракции СССП

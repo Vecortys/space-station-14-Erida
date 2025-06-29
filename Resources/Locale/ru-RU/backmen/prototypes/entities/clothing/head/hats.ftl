@@ -1,7 +1,5 @@
 ent-ClothingHeadHatUshankaSSSP = ушанка СССП
     .desc = Отлично подходит для Сибири, да?
-ent-ClothingHeadHatCapGerman = фуражка немецкого офицера
-    .desc = Довольно старая фуражка офицера руководящего немецкими войсками
 ent-ClothingHeadHatCapOfficerSoviet = фуражка Советского Офицера
     .desc = Современная версия фуражки офицера руководящего войсками СССП
 ent-ClothingWhitsHunter = шляпа охотника за ведьмами
