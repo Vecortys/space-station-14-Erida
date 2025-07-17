@@ -5,7 +5,7 @@ using Content.Shared.CombatMode;
 using Content.Shared.Popups;
 using System.Diagnostics;
 
-namespace Content.Shared._Vecortys.Strangle.Systems;
+namespace Content.Server._Vecortys.Strangle.Systems;
 
 public sealed class StrangleSystem : EntitySystem
 {
