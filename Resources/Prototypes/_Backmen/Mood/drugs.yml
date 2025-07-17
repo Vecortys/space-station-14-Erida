@@ -74,3 +74,21 @@
 
 - type: moodCategory
   id: HappinessAddiction
+
+# Faol
+- type: moodEffect
+  id: FaolBenefit
+  moodChange: 15
+  category: "FaolCategory"
+  timeout: 300 #5 minutes
+  hidden: true
+
+- type: moodEffect
+  id: EmotionReduce
+  moodChange: -20
+  category: "FaolCategory"
+  timeout: 300 #5 minutes
+  hidden: true
+
+- type: moodCategory
+  id: FaolCategory

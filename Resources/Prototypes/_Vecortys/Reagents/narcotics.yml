@@ -1,0 +1,44 @@
+- type: reagent
+  id: Faol
+  name: reagent-name-faol
+  group: Narcotics
+  desc: reagent-desc-faol
+  physicalDesc: reagent-physical-desc-nondescript
+  flavor: bitter
+  color: "#ffffffd8"
+  metabolisms:
+    Narcotic:
+      effects:
+      - !type:AdjustPainFeels
+        conditions:
+        - !type:SpeciesType
+          species: Demon
+        amount: 0.04
+      - !type:GenericStatusEffect
+        key: SeeingRainbows
+        component: SeeingRainbows
+        type: Add
+        time: 5
+        refresh: false
+        conditions:
+        - !type:SpeciesType
+          species: Demon
+        - !type:ReagentThreshold
+          reagent: Faol
+          min: 15
+      - !type:ChemAddMoodlet
+        moodPrototype: FaolBenefit
+        conditions:
+        - !type:SpeciesType
+          species: Demon
+    Medicine:
+      effects:
+        - !type:HealthChange
+          damage:
+            types:
+              Poison: 2
+              Bloodloss: 1
+          conditions:
+          - !type:SpeciesType
+            species: Demon
+            invert: true

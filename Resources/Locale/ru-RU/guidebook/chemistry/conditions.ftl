@@ -55,4 +55,9 @@ reagent-effect-condition-guidebook-has-tag =
         [true] не имеет
        *[false] имеет
     } метку { $tag }
+reagent-effect-condition-guidebook-species-type =
+    существо { $invert ->
+        [true] не является
+       *[false] является
+    } представителем расы { $species }
 reagent-effect-condition-guidebook-this-reagent = этот реагент

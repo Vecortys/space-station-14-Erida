@@ -1,0 +1,18 @@
+- type: entity
+  id: ActionGetFaol
+  name: action-name-get-faol
+  description: action-description-get-faol
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: EntityTargetAction
+    whitelist:
+      components:
+      - HumanoidAppearance
+    useDelay: 3
+    event: !type:GetFaolEvent {}
+    canTargetSelf: false
+    interactOnMiss: false
+    itemIconStyle: NoItem
+    icon:
+      sprite: _Vecortys/faol_get_icon.rsi
+      state: faol_get_icon
