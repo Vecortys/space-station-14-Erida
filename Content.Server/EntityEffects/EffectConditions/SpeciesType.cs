@@ -20,7 +20,7 @@ public sealed partial class SpeciesType : EntityEffectCondition
         if (args.EntityManager.TryGetComponent(args.TargetEntity, out HumanoidAppearanceComponent? humanoid))
         {
             if (humanoid.Species == Species)
-                return true;
+                return true ^ Invert;
         }
         return Invert;
     }
