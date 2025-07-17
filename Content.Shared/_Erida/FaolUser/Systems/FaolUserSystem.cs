@@ -3,17 +3,16 @@ using Content.Shared.Actions;
 using Content.Shared.DoAfter;
 using Content.Shared._Vecortys.FaolUser.Components;
 using Robust.Shared.Prototypes;
-using Content.Shared.Chemistry.Components.SolutionManager;
 using Content.Shared.Chemistry.Components;
 using Content.Shared.Chemistry.EntitySystems;
 using Content.Shared.FixedPoint;
 using Content.Shared.Backmen.Mood;
+using Content.Shared.Mobs;
 
 namespace Content.Shared._Vecortys.FaolUser.Systems;
 
 public sealed class FaolUserSystem : EntitySystem
 {
-
     [Dependency] private readonly IEntityManager _entityManager = default!;
     [Dependency] private readonly SharedPopupSystem _popup = default!;
     [Dependency] private readonly SharedActionsSystem _actionsSystem = default!;
@@ -49,11 +48,14 @@ public sealed class FaolUserSystem : EntitySystem
             BreakOnMove = true
         };
         _doAfter.TryStartDoAfter(dargs);
+        if (_entityManager.TryGetComponent<MetaDataComponent>(args.Target, out var targetMeta) &&
+        _entityManager.TryGetComponent<MetaDataComponent>(uid, out var userMeta))
+            _popup.PopupEntity($"Хвост {userMeta.EntityName} захватывает {targetMeta.EntityName}!", args.Target, PopupType.MediumCaution);
     }
 
     private void OnGetFaolDoAfterEvent(EntityUid uid, FaolUserComponent component, GetFaolDoAfterEvent args)
     {
-        if (args.Handled)
+        if (args.Handled || args.Cancelled)
             return;
         args.Handled = true;
 
