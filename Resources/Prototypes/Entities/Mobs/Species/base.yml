@@ -247,7 +247,6 @@
   id: BaseMobSpeciesOrganic
   abstract: true
   components:
-  - type: Strangle # Vecortys
   - type: Consciousness # backmen
     cap: 250
     threshold: 100
