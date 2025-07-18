@@ -9,11 +9,12 @@
   metabolisms:
     Narcotic:
       effects:
-      - !type:AdjustPainFeels
+      - !type:SuppressPain
         conditions:
         - !type:SpeciesType
           species: Demon
-        amount: 0.01
+        amount: 2
+        time: 30
       - !type:GenericStatusEffect
         key: SeeingRainbows
         component: SeeingRainbows
