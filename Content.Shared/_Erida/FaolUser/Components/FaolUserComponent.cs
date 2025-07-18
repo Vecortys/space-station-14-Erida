@@ -1,9 +1,8 @@
 using Content.Shared.Actions;
 using Content.Shared.DoAfter;
-using Robust.Shared.GameStates;
 using Robust.Shared.Serialization;
 
-namespace Content.Shared._Vecortys.FaolUser.Components;
+namespace Content.Shared._Erida.FaolUser.Components;
 
 [RegisterComponent]
 public sealed partial class FaolUserComponent : Component

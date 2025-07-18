@@ -1,15 +1,14 @@
 using Content.Shared.Popups;
 using Content.Shared.Actions;
 using Content.Shared.DoAfter;
-using Content.Shared._Vecortys.FaolUser.Components;
+using Content.Shared._Erida.FaolUser.Components;
 using Robust.Shared.Prototypes;
 using Content.Shared.Chemistry.Components;
 using Content.Shared.Chemistry.EntitySystems;
 using Content.Shared.FixedPoint;
 using Content.Shared.Backmen.Mood;
-using Content.Shared.Mobs;
 
-namespace Content.Shared._Vecortys.FaolUser.Systems;
+namespace Content.Shared._Erida.FaolUser.Systems;
 
 public sealed class FaolUserSystem : EntitySystem
 {
