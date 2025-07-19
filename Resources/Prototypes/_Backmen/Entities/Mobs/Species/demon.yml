@@ -3,7 +3,8 @@
   id: BaseMobDemon
   abstract: true
   components:
-  - type: FaolUser # Vecortys
+  - type: FaolUser # Erida
+  - type: FaolHunger # Erida
   - type: LanguageSpeaker
     currentLanguage: TauCetiBasic
   - type: Consciousness # some fucking exclusivity for demons, harder to put them into crit, but they die more quickly.

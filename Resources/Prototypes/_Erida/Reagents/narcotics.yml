@@ -32,7 +32,7 @@
         conditions:
         - !type:SpeciesType
           species: Demon
-    Medicine:
+    Poison:
       effects:
         - !type:HealthChange
           conditions:

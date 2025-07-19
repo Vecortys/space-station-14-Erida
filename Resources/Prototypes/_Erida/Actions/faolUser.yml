@@ -8,7 +8,7 @@
     whitelist:
       components:
       - HumanoidAppearance
-    useDelay: 180
+    useDelay: 360
     event: !type:GetFaolEvent {}
     canTargetSelf: false
     interactOnMiss: false
