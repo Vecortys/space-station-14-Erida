@@ -34,7 +34,7 @@ public sealed class FaolHungerSystem : EntitySystem
 
     private void OnMapInit(EntityUid uid, FaolHungerComponent component, MapInitEvent args)
     {
-        component.FaolLoss = _random.NextFloat(0.014f, 0.03f);
+        component.FaolLoss = _random.NextFloat(0.008f, 0.016f);
     }
 
     public override void Update(float frameTime)
