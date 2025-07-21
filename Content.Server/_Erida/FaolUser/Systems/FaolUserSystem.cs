@@ -1,12 +1,14 @@
 using Content.Shared.Popups;
 using Content.Shared.Actions;
 using Content.Shared.DoAfter;
-using Content.Shared._Erida.FaolUser.Components;
+using Content.Server._Erida.FaolUser.Components;
 using Robust.Shared.Prototypes;
 using Content.Shared.Chemistry.Components;
 using Content.Shared.Chemistry.EntitySystems;
 using Content.Shared.FixedPoint;
 using Content.Shared.Backmen.Mood;
+using Content.Shared.Humanoid;
+using Content.Server._Erida.FaolHunger.Components;
 
 namespace Content.Shared._Erida.FaolUser.Systems;
 
@@ -23,7 +25,7 @@ public sealed class FaolUserSystem : EntitySystem
     public override void Initialize()
     {
         base.Initialize();
-        SubscribeLocalEvent<FaolUserComponent, GetFaolEvent>(OnGetFaol);
+        SubscribeLocalEvent<FaolUserComponent, GetFaolEvent>(OnGetFaolAction);
         SubscribeLocalEvent<FaolUserComponent, ComponentStartup>(OnGetFaolStartup);
         SubscribeLocalEvent<FaolUserComponent, GetFaolDoAfterEvent>(OnGetFaolDoAfterEvent);
     }
@@ -33,7 +35,7 @@ public sealed class FaolUserSystem : EntitySystem
         _actionsSystem.AddAction(uid, ref component.GetFaolAction, GetFaolAction);
     }
 
-    private void OnGetFaol(EntityUid uid, FaolUserComponent comp, ref GetFaolEvent args)
+    private void OnGetFaolAction(EntityUid uid, FaolUserComponent comp, ref GetFaolEvent args)
     {
         if (args.Handled)
             return;
@@ -50,6 +52,7 @@ public sealed class FaolUserSystem : EntitySystem
         if (_entityManager.TryGetComponent<MetaDataComponent>(args.Target, out var targetMeta) &&
         _entityManager.TryGetComponent<MetaDataComponent>(uid, out var userMeta))
             _popup.PopupEntity($"Хвост {userMeta.EntityName} захватывает {targetMeta.EntityName}!", args.Target, PopupType.MediumCaution);
+        Dirty(uid, comp);
     }
 
     private void OnGetFaolDoAfterEvent(EntityUid uid, FaolUserComponent component, GetFaolDoAfterEvent args)
@@ -58,11 +61,22 @@ public sealed class FaolUserSystem : EntitySystem
             return;
         args.Handled = true;
 
+        GetFaol(uid, component);
+    }
+
+    private void GetFaol(EntityUid uid, FaolUserComponent component)
+    {
         if (_solutionContainer.TryGetInjectableSolution(uid, out var targetSoln, out var targetSolution))
         {
-            _solutionContainer.AddSolution(targetSoln.Value, new Solution("Faol", FixedPoint2.New(20)));
+            _solutionContainer.AddSolution(targetSoln.Value, new Solution("Faol", FixedPoint2.New(component.UnitPerGetFaol)));
             RaiseLocalEvent(component.Target, new MoodEffectEvent("EmotionReduce"));
-        }
 
+            if (_entityManager.TryGetComponent<FaolHungerComponent>(component.Target, out var faolHunger))
+            {
+                _popup.PopupEntity("Вы ощутили, как фаоль покидает вас!", component.Target, PopupType.SmallCaution);
+                if (faolHunger.FaolStock >= Math.Abs(component.UnitPerGetFaol))
+                    faolHunger.FaolStock -= component.UnitPerGetFaol;
+            }
+        }
     }
 }

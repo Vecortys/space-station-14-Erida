@@ -1,8 +1,11 @@
 using Content.Server._Erida.FaolHunger.Components;
+using Content.Shared.Backmen.Mood;
 using Content.Shared.Chemistry.EntitySystems;
 using Content.Shared.Damage;
 using Content.Shared.Damage.Prototypes;
 using Content.Shared.Jittering;
+using Content.Shared.Mobs;
+using Content.Shared.Mobs.Components;
 using Content.Shared.Popups;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
@@ -31,7 +34,7 @@ public sealed class FaolHungerSystem : EntitySystem
 
     private void OnMapInit(EntityUid uid, FaolHungerComponent component, MapInitEvent args)
     {
-        component.FaolLoss = _random.NextFloat(0.008f, 0.025f);
+        component.FaolLoss = _random.NextFloat(0.014f, 0.03f);
     }
 
     public override void Update(float frameTime)
@@ -39,10 +42,10 @@ public sealed class FaolHungerSystem : EntitySystem
         base.Update(frameTime);
 
         var curTime = _gameTiming.CurTime;
-        var query = EntityQueryEnumerator<FaolHungerComponent>();
-        while (query.MoveNext(out var uid, out var faolHungerComponent))
+        var query = EntityQueryEnumerator<FaolHungerComponent, MobStateComponent>();
+        while (query.MoveNext(out var uid, out var faolHungerComponent, out var mobStateComponent))
         {
-            if (faolHungerComponent.NextUpdate > curTime)
+            if (faolHungerComponent.NextUpdate > curTime || mobStateComponent.CurrentState == MobState.Dead)
                 continue;
 
             UpdateFaolStock(uid, faolHungerComponent);
@@ -50,7 +53,7 @@ public sealed class FaolHungerSystem : EntitySystem
 
             if (faolHungerComponent.CurrentThreshold == FaolThreshold.Dead)
             {
-                _damage.TryChangeDamage(uid, new DamageSpecifier(_prototypeManager.Index<DamageTypePrototype>("Asphyxiation"), faolHungerComponent.DamageByDeadly), true, false);
+                _damage.TryChangeDamage(uid, new DamageSpecifier(_prototypeManager.Index<DamageTypePrototype>("Asphyxiation"), faolHungerComponent.DamageByDead), true, false);
                 _jitter.DoJitter(uid, TimeSpan.FromSeconds(2), true, amplitude: 1, frequency: 7);
             }
             else
@@ -95,6 +98,7 @@ public sealed class FaolHungerSystem : EntitySystem
         switch (component.CurrentThreshold)
         {
             case FaolThreshold.Deadly:
+                _popup.PopupEntity("Дышать становится всё тяжелее...", uid, PopupType.SmallCaution);
                 component.HungerModificator = 0.7f;
                 _jitter.DoJitter(uid, TimeSpan.FromSeconds(5), true, amplitude: 2, frequency: 6);
                 break;
@@ -111,5 +115,9 @@ public sealed class FaolHungerSystem : EntitySystem
                 component.HungerModificator = 1.2f;
                 break;
         }
+
+        string newMoodEffect = component.MoodEffects[component.CurrentThreshold];
+        RaiseLocalEvent(uid, new MoodEffectEvent(newMoodEffect));
     }
 }
+

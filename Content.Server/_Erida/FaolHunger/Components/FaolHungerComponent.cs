@@ -6,7 +6,7 @@ namespace Content.Server._Erida.FaolHunger.Components;
 [RegisterComponent]
 public sealed partial class FaolHungerComponent : Component
 {
-    [DataField]
+    [DataField, ViewVariables(VVAccess.ReadOnly)]
     public TimeSpan NextUpdate = TimeSpan.Zero;
 
     [DataField, ViewVariables(VVAccess.ReadOnly)]
@@ -14,10 +14,10 @@ public sealed partial class FaolHungerComponent : Component
 
 
     [DataField, ViewVariables(VVAccess.ReadWrite)]
-    public float FaolStock = 100.0f;
+    public float FaolStock = 105.0f;
 
     [DataField, ViewVariables(VVAccess.ReadWrite)]
-    public float FaolLoss = 0.04f;
+    public float FaolLoss = 0.02f;
 
     [DataField, ViewVariables(VVAccess.ReadWrite)]
     public float HungerModificator = 1.0f;
@@ -34,12 +34,22 @@ public sealed partial class FaolHungerComponent : Component
         { FaolThreshold.Dead, 0.0f }
     };
 
+    [DataField, ViewVariables(VVAccess.ReadWrite)]
+    public Dictionary<FaolThreshold, string> MoodEffects = new()
+    {
+        { FaolThreshold.Overfed, "FaolHungerOverfed" },
+        { FaolThreshold.Okay, "FaolHungerOkay" },
+        { FaolThreshold.Peckish, "FaolHungerPeckish" },
+        { FaolThreshold.Starving, "FaolHungerStarving" },
+        { FaolThreshold.Deadly, "FaolHungerDeadly" },
+        { FaolThreshold.Dead, "FaolHungerDead" }
+    };
+
     [DataField, ViewVariables(VVAccess.ReadOnly)]
     public FaolThreshold CurrentThreshold = FaolThreshold.Okay;
 
-
     [DataField, ViewVariables(VVAccess.ReadWrite)]
-    public float DamageByDeadly = 1.8f;
+    public float DamageByDead = 1.8f;
 }
 
 public enum FaolThreshold : byte

@@ -78,3 +78,40 @@
   moodChange: -20
   category: "Health"
   hidden: true
+
+# Faol Hunger
+- type: moodEffect
+  id: FaolHungerOverfed
+  moodChange: 10
+  timeout: 300 #5 minutes
+  hidden: true
+
+- type: moodEffect
+  id: FaolHungerOkay
+  moodChange: 5
+  category: "FaolCategory"
+  hidden: true
+
+- type: moodEffect
+  id: FaolHungerPeckish
+  moodChange: -5
+  category: "FaolCategory"
+  hidden: true
+
+- type: moodEffect
+  id: FaolHungerStarving
+  moodChange: -10
+  category: "FaolCategory"
+  hidden: true
+
+- type: moodEffect
+  id: FaolHungerDeadly
+  moodChange: -20
+  category: "FaolCategory"
+  hidden: true
+
+- type: moodEffect
+  id: FaolHungerDead
+  moodChange: -40
+  category: "FaolCategory"
+  hidden: true
