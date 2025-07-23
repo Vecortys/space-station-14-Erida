@@ -43,6 +43,7 @@ using Robust.Shared.Audio.Systems;
 using Robust.Shared.Player;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
+using Content.Server._Erida.HolyIntolerance.Components;
 
 namespace Content.Server.Backmen.Vampiric;
 
@@ -128,6 +129,7 @@ public sealed class BloodSuckerSystem : SharedBloodSuckerSystem
             return;
 
         EnsureComp<BloodSuckerComponent>(uid);
+        EnsureComp<HolyIntoleranceComponent>(uid);
 
         foreach (var bodyPart in _bodySystem.GetBodyChildren(uid))
         {
